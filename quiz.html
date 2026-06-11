@@ -70,43 +70,44 @@ button{
 
 <script>
 
-const words = [
-
-{
-jp:"元の神",
-en:"God of Origin",
-zh:"宇宙元神",
-pt:"Deus original",
-mn:"Эх бурхан"
-},
-
-{
-jp:"実の神",
-en:"God in Truth",
-zh:"万真実神",
-pt:"Deus verdadeiro",
-mn:"Үнэн бурхан"
-},
-
-{
-jp:"神のやしろ",
-en:"Shrine of God",
-zh:"神殿",
-pt:"Sacrário de Tsukihi",
-mn:"Бурханы ариун ордон"
-}
-
-];
-
+let words = [];
 let currentWord;
 
+async function loadCSV() {
+
+    const response = await fetch("words.csv");
+    const csvText = await response.text();
+
+    const lines = csvText.split("\n");
+
+    for(let i = 1; i < lines.length; i++){
+
+        const cols = lines[i].split(",");
+
+        if(cols.length < 6) continue;
+
+        words.push({
+            jp: cols[1]?.trim(),
+            en: cols[2]?.trim(),
+            zh: cols[3]?.trim(),
+            pt: cols[4]?.trim(),
+            mn: cols[5]?.trim()
+        });
+
+    }
+
+    nextQuestion();
+}
+
 function nextQuestion(){
+
+    if(words.length === 0) return;
 
     const lang =
         localStorage.getItem("language");
 
     currentWord =
-        words[Math.floor(Math.random()*words.length)];
+        words[Math.floor(Math.random() * words.length)];
 
     document.getElementById("question").innerText =
         currentWord.jp;
@@ -145,9 +146,4 @@ function showAnswer(){
 
 }
 
-nextQuestion();
-
-</script>
-
-</body>
-</html>
+loadCSV();

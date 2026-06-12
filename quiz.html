@@ -73,77 +73,12 @@ button{
 let words = [];
 let currentWord;
 
-async function loadCSV() {
+async function loadJSON() {
 
-    const response = await fetch("words.csv");
-    const csvText = await response.text();
-
-    const lines = csvText.split("\n");
-
-    for(let i = 1; i < lines.length; i++){
-
-        const cols = lines[i].split(",");
-
-        if(cols.length < 6) continue;
-
-        words.push({
-            jp: cols[1]?.trim(),
-            en: cols[2]?.trim(),
-            zh: cols[3]?.trim(),
-            pt: cols[4]?.trim(),
-            mn: cols[5]?.trim()
-        });
-
-    }
+    const response = await fetch("words.json");
+    words = await response.json();
 
     nextQuestion();
 }
 
-function nextQuestion(){
-
-    if(words.length === 0) return;
-
-    const lang =
-        localStorage.getItem("language");
-
-    currentWord =
-        words[Math.floor(Math.random() * words.length)];
-
-    document.getElementById("question").innerText =
-        currentWord.jp;
-
-    document.getElementById("answer").style.display =
-        "none";
-
-    switch(lang){
-
-        case "en":
-            document.getElementById("answer").innerText =
-                currentWord.en;
-            break;
-
-        case "zh":
-            document.getElementById("answer").innerText =
-                currentWord.zh;
-            break;
-
-        case "pt":
-            document.getElementById("answer").innerText =
-                currentWord.pt;
-            break;
-
-        case "mn":
-            document.getElementById("answer").innerText =
-                currentWord.mn;
-            break;
-    }
-}
-
-function showAnswer(){
-
-    document.getElementById("answer").style.display =
-        "block";
-
-}
-
-loadCSV();
+loadJSON();

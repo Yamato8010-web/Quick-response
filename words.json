@@ -1,0 +1,6029 @@
+[
+  {
+    "jp": "元の神",
+    "en": "God of Origin",
+    "zh": "宇宙元神",
+    "pt": "Deus original",
+    "mn": "Эх бурхан"
+  },
+  {
+    "jp": "実の神",
+    "en": "God in Truth",
+    "zh": "万界真神",
+    "pt": "Deus verdadeiro",
+    "mn": "Үнэн бурхан"
+  },
+  {
+    "jp": "神のやしろ",
+    "en": "Shrine of God",
+    "zh": "神龛",
+    "pt": "Sacrário de Tsukihi",
+    "mn": "Бурханы яширо буюу бурханы гэр"
+  },
+  {
+    "jp": "「我は元の神・実の神である。」",
+    "en": "\"I am God of Origin, God in Truth.\"",
+    "zh": "“吾乃宇宙元神、万界真神。”",
+    "pt": "Eu sou Deus original, o Deus verdadeiro",
+    "mn": "Би бол Эх бурхан, үнэн бурхан"
+  },
+  {
+    "jp": "「この屋敷にいんねんあり。」",
+    "en": "\"There is causality in this Residence.\" ",
+    "zh": "“此宅院因有元始因缘。”",
+    "pt": "Nesta casa há predestinação",
+    "mn": "Энэ өргөө хувь тавилантай"
+  },
+  {
+    "jp": "「このたび、世界一れつをたすけるために天降った。」",
+    "en": "\"At this time, I have descended here to save all humankind.\"",
+    "zh": "“今为拯救世人而降临。”",
+    "pt": "Desta vez, revelei-me neste mundo para salvar toda a humanidade",
+    "mn": "Энэ удаа ертөнцийн хүн төрөлхтнийг аврахын төлөө тэнгэрээс буун ирлээ"
+  },
+  {
+    "jp": "「みきを神のやしろに貰い受けたい。」",
+    "en": "\"I wish to receive Miki as the Shrine of God.\"",
+    "zh": "“欲纳美伎为神龛。”",
+    "pt": "Desejo ter Miki como meu Sacrário",
+    "mn": "Микиг Яширогоо болгон авахыг хүсч байна"
+  },
+  {
+    "jp": "天理王命",
+    "en": "Tenri-O-no-Mikoto",
+    "zh": "天理欧诺弥格多",
+    "pt": "Tenri-Ô-no-Mikoto",
+    "mn": "Тэнри-Оо-но-Микото"
+  },
+  {
+    "jp": "親神様",
+    "en": "God the Parent",
+    "zh": "父母神",
+    "pt": "Deus-Parens",
+    "mn": "Эцэг эх бурхан"
+  },
+  {
+    "jp": "教祖",
+    "en": "Oyasama",
+    "zh": "教祖",
+    "pt": "Oyassama",
+    "mn": "Оясама"
+  },
+  {
+    "jp": "寛政10年4月18日",
+    "en": "April 18, 1798",
+    "zh": "宽政10年4月18日",
+    "pt": "18 de abril de 1798",
+    "mn": "1798 оны 4-р сарын 18-ны өдөр"
+  },
+  {
+    "jp": "ぢばさだめ",
+    "en": "(the) identification of Jiba",
+    "zh": "确定原地",
+    "pt": "A identificação da Jiba",
+    "mn": "Жиба тогтоох"
+  },
+  {
+    "jp": "たすけ一条の道",
+    "en": "(the) path of single-hearted salvation",
+    "zh": "专心拯救之道",
+    "pt": "O caminho da dedicação única à salvação",
+    "mn": "Нэгэн сэтэгэлээр аврахын зам"
+  },
+  {
+    "jp": "陽気ぐらし",
+    "en": "(the) Joyous Life",
+    "zh": "康乐生活",
+    "pt": "A Vida Plena de Alegria e Felicidade",
+    "mn": "Энх баясгалант амьдрал"
+  },
+  {
+    "jp": "陽気遊山",
+    "en": "joyous life",
+    "zh": "康乐之生活",
+    "pt": "As recreações alegres",
+    "mn": "Энх баясгалант амьдрал"
+  },
+  {
+    "jp": "自由自在の働き",
+    "en": "free and unlimited workings",
+    "zh": "自由自在的佑护",
+    "pt": "Os trabalhos onipotentes",
+    "mn": "хязгааргүй ивээл"
+  },
+  {
+    "jp": "貧のどん底に落ち切る",
+    "en": "fall to the depths of poverty",
+    "zh": "彻底走在赤贫之道",
+    "pt": "Mergulhar na profunda pobreza",
+    "mn": "Ядуугийн туйлд унах"
+  },
+  {
+    "jp": "証拠まもり",
+    "en": "(the) Proof Amulet",
+    "zh": "证据神符",
+    "pt": "O amuleto prova",
+    "mn": "нотолгоо сахиус"
+  },
+  {
+    "jp": "をびや許し",
+    "en": "(the) Grant of Safe Childbirth",
+    "zh": "安产神许",
+    "pt": "A permissão do Parto Feliz",
+    "mn": "Эсэн мэнд амаржуулах хишиг"
+  },
+  {
+    "jp": "お米の御供（ごく）",
+    "en": "sacred rice",
+    "zh": "神米",
+    "pt": "O arroz abençoado",
+    "mn": "өргөл удаа Гоку"
+  },
+  {
+    "jp": "思召",
+    "en": "divine intention",
+    "zh": "神意",
+    "pt": "A intenção",
+    "mn": "бурханы бодол санаа"
+  },
+  {
+    "jp": "ほこり",
+    "en": "dust",
+    "zh": "灰尘；心尘",
+    "pt": "A poeira",
+    "mn": "(сэтгэлийн)тоос "
+  },
+  {
+    "jp": "ほおき",
+    "en": "broom",
+    "zh": "扫把",
+    "pt": "A vassoura",
+    "mn": "шүүр"
+  },
+  {
+    "jp": "心の成人",
+    "en": "spiritual growth",
+    "zh": "心灵成长",
+    "pt": "A evolução espiritual",
+    "mn": "сүсэг бишрэл дээшлэх"
+  },
+  {
+    "jp": "赤衣を召す",
+    "en": "wear a red kimono",
+    "zh": "穿上红衣",
+    "pt": "Vestir quimono vermelho",
+    "mn": "улаан кимоно өмсөх"
+  },
+  {
+    "jp": "道すがら",
+    "en": "journey",
+    "zh": "历程；过程",
+    "pt": "A caminhada",
+    "mn": "сүсэг бишрэлийн зам/ Оясамагийн туулсан замдаа"
+  },
+  {
+    "jp": "教祖ご在世時",
+    "en": "when Oyasama was physically present",
+    "zh": "教祖在世时",
+    "pt": "Oyassama estava presente fisicamante",
+    "mn": "Оясама махан биеэсээ гарахын өмнө"
+  },
+  {
+    "jp": "親里",
+    "en": "(the) Home of the Parent",
+    "zh": "亲里",
+    "pt": "A terra parental",
+    "mn": "Оясато"
+  },
+  {
+    "jp": "神名",
+    "en": "name of God",
+    "zh": "神名",
+    "pt": "O nome divino",
+    "mn": "бурханы нэр"
+  },
+  {
+    "jp": "親心",
+    "en": "parental love",
+    "zh": "父母慈心",
+    "pt": "O amor parental",
+    "mn": "Эцэг эхийн сэтгэл/хайр"
+  },
+  {
+    "jp": "成ってくるのが天の理",
+    "en": "Whatever happens is the truth of heaven.",
+    "zh": "诚然之理",
+    "pt": "O que quer que aconteça é a razão celeste.",
+    "mn": "бий болж ирэх нь тэнгэрийн ёс"
+  },
+  {
+    "jp": "教祖魂のいんねん",
+    "en": "(the) Causality of the Soul of Oyasama",
+    "zh": "教祖灵魂因缘",
+    "pt": "A predestinação da alma de Oyassama",
+    "mn": "Оясама сүнсний хувь тавилан"
+  },
+  {
+    "jp": "やしきのいんねん",
+    "en": "(the) Causality of the Residence",
+    "zh": "宅院因缘",
+    "pt": "A predestinação da residência",
+    "mn": "өргөөний хувь тавилан"
+  },
+  {
+    "jp": "旬刻限の理",
+    "en": "(the) Causality of the Promised Time",
+    "zh": "天时之理",
+    "pt": "A razão do tempo predeterminado",
+    "mn": "болзоот цагийн хувь тавилан"
+  },
+  {
+    "jp": "だめの教え",
+    "en": "(the) ultimate teaching",
+    "zh": "终极教义",
+    "pt": "O último ensinamento / O derradeiro ensinamento",
+    "mn": "хамгаас эрхэм дээд сургаал"
+  },
+  {
+    "jp": "万人のひながた",
+    "en": "Oyasama's model path for one and all",
+    "zh": "万人之典范",
+    "pt": "A vida-modelo da toda humanidade",
+    "mn": "түмэн олны Үлгэр дуурайл"
+  },
+  {
+    "jp": "生神様",
+    "en": "living god",
+    "zh": "活神",
+    "pt": "A Deusa viva",
+    "mn": "амьд бурхан"
+  },
+  {
+    "jp": "ご苦労",
+    "en": "hardships",
+    "zh": "蒙受苦难",
+    "pt": "O sacrifício",
+    "mn": "хал зовлон"
+  },
+  {
+    "jp": "「真実なら神が受け取る。」",
+    "en": "\"If sincere, God will accept.\"",
+    "zh": "“只要真诚，神一定接受。”",
+    "pt": "Sendo sinceridade, Deus aceitará",
+    "mn": "\"Чин үнэн сэтгэлийг бурхан хүлээн авна"
+  },
+  {
+    "jp": "「講を結べ。」",
+    "en": "\"Form fellowships.\"",
+    "zh": "“成立讲社。”",
+    "pt": "Formem uma irmanidade",
+    "mn": "\"сургалтын газар нээ.\""
+  },
+  {
+    "jp": "ろくぢ",
+    "en": "leveled ground",
+    "zh": "踏平",
+    "pt": "A terra nivelada",
+    "mn": "газар шороог тэгшлэх"
+  },
+  {
+    "jp": "立教",
+    "en": "(the) founding of the Teaching",
+    "zh": "立教",
+    "pt": "A Revelação Divina",
+    "mn": "Тенрикёо эхэлсэн өдөр"
+  },
+  {
+    "jp": "天保9年10月26日",
+    "en": "October 26, 1838",
+    "zh": "天保9年10月26日",
+    "pt": "26 de outubro de 1838",
+    "mn": "1838 оны 10-р сарын 26-ны өдөр"
+  },
+  {
+    "jp": "屋敷",
+    "en": "(the) Residence",
+    "zh": "宅院",
+    "pt": "A Residência",
+    "mn": "өргөө"
+  },
+  {
+    "jp": "元のいんねん",
+    "en": "(the) causality of origin",
+    "zh": "元始因缘",
+    "pt": "A predestinação original",
+    "mn": "Эх үүслийн хувь тавилан"
+  },
+  {
+    "jp": "神",
+    "en": "God",
+    "zh": "神",
+    "pt": "Deus",
+    "mn": "бурхан"
+  },
+  {
+    "jp": "月日",
+    "en": "Tsukihi",
+    "zh": "月日",
+    "pt": "Lua-Sol",
+    "mn": "Саран Наран"
+  },
+  {
+    "jp": "をや",
+    "en": "(the) Parent",
+    "zh": "父母",
+    "pt": "Parens",
+    "mn": "Эцэг эх"
+  },
+  {
+    "jp": "お急き込み",
+    "en": "hastening",
+    "zh": "催促",
+    "pt": "Apressar",
+    "mn": "яаруулах"
+  },
+  {
+    "jp": "赤衣",
+    "en": "red kimono",
+    "zh": "红衣",
+    "pt": "O quimono vermelho",
+    "mn": "Улаан кимоно"
+  },
+  {
+    "jp": "合殿",
+    "en": "(the) Connecting Hall",
+    "zh": "合殿",
+    "pt": "O recinto de ligação",
+    "mn": "Холбогдох өргөө"
+  },
+  {
+    "jp": "貧に落ちきる",
+    "en": "fall to the depth of poverty",
+    "zh": "彻底",
+    "pt": "Mergulhar na pobreza",
+    "mn": "ядуугийн туйлд унах"
+  },
+  {
+    "jp": "貧のどん底",
+    "en": "(the) depths of poverty",
+    "zh": "赤贫",
+    "pt": "A profunda pobreza",
+    "mn": "ядуугийн туйл"
+  },
+  {
+    "jp": "「水を飲めば水の味がする」",
+    "en": "\"When you drink water, it tastes of water.\"",
+    "zh": "“喝水知道水的美味。”",
+    "pt": "Quando bebemos a água, sentimos gosto da água",
+    "mn": "\"Усыг уувал усны амтыг мэдэрнэ\""
+  },
+  {
+    "jp": "「やさしい心になりなされや。」",
+    "en": "\"Become a person with a gentle heart.\"",
+    "zh": "“要有温厚心”",
+    "pt": "Torne o seu espírito amável",
+    "mn": "\"Сайхан сэтгэлтэй байгаарай\""
+  },
+  {
+    "jp": "「人を救けなされや。」",
+    "en": "\"Save other people.\"",
+    "zh": "“要救人”",
+    "pt": "Salve o próximo",
+    "mn": "\"Хүнд тус хүргээгээрэй\""
+  },
+  {
+    "jp": "「癖、性分をとりなされや。」",
+    "en": "\"Change your habits and temperament.\"",
+    "zh": "“要改掉不好的习性”",
+    "pt": "Mude os seus maus hábitos e o temperamento",
+    "mn": "\"Өөрийн гэсэн зан чанараа өөрчилөх шүү дээ\""
+  },
+  {
+    "jp": "三つの宝",
+    "en": "three treasures",
+    "zh": "三宝",
+    "pt": "Os três tesouros",
+    "mn": "гурван эрдэнэ"
+  },
+  {
+    "jp": "麻",
+    "en": "linen",
+    "zh": "麻布",
+    "pt": "O linho",
+    "mn": "ёрог"
+  },
+  {
+    "jp": "絹",
+    "en": "silk",
+    "zh": "丝绸",
+    "pt": "A seda",
+    "mn": "торго"
+  },
+  {
+    "jp": "木綿",
+    "en": "cotton",
+    "zh": "棉布",
+    "pt": "A algodão",
+    "mn": "хөвөн даавуу"
+  },
+  {
+    "jp": "定命を縮める",
+    "en": "shorten the natural term of life",
+    "zh": "缩短定寿",
+    "pt": "Encurtar a vida determinada",
+    "mn": "тогтсон наслалтаа богиносгох"
+  },
+  {
+    "jp": "現身を隠す",
+    "en": "withdraw from physical life",
+    "zh": "隐去身影",
+    "pt": "Ocultar-se fisicamente",
+    "mn": "Оясама махан биеэсээ гарсан"
+  },
+  {
+    "jp": "明治20年陰暦正月26日",
+    "en": "(the) lunar calendar date of January 26, 1887",
+    "zh": "明治20年农历正月26日",
+    "pt": "26 de janeiro de 1887 do calendário lunar",
+    "mn": "1838 оны билгийн тооллын 1-р сарын 26-ны өдөр"
+  },
+  {
+    "jp": "ひながた",
+    "en": "(the) Divine Model",
+    "zh": "典范",
+    "pt": "A vida-modelo",
+    "mn": "Үлгэр дуурайлт"
+  },
+  {
+    "jp": "50年にわたるひながた",
+    "en": "(the) fifty-year Divine Model",
+    "zh": "五十年的典范",
+    "pt": "A vida-modelo de durante 50 anos",
+    "mn": "50 жилийн хугацааны Үлгэр дуурайлт"
+  },
+  {
+    "jp": "ひながたをたどる",
+    "en": "follow the Divine Model",
+    "zh": "遵循典范",
+    "pt": "Seguir a vida-modelo",
+    "mn": "Үлгэр дуурайлтыг дагах"
+  },
+  {
+    "jp": "教祖ひながたを慕う",
+    "en": "yearn for the Divine Model of Oyasama",
+    "zh": "仰慕教祖典范",
+    "pt": "Adorar a vida-modelo de Oyassama",
+    "mn": "Оясамагийн Үлгэр дуурайлтыг "
+  },
+  {
+    "jp": "「ひながたの道を通らねばひながた要らん。…ひながたの道より道がないで。」",
+    "en": "\"If you do not follow the path of the Divine Model, there is no need for a Divine Model.... There is no path but the path of the Divine Model.\"",
+    "zh": "“典范之道若不实践，则不需典范；·····典范之道外，无他道。”",
+    "pt": "Se não trilharem o caminho da vida-modelo, não será necessário a vida-modelo. (...) Não há outro caminho a não ser o da vida-modelo",
+    "mn": "\"Үлгэр дуурайлт замыг туулахгүй бол ямар ч утга агуулгагүй. ........Үлгэр дуурайлт замаас өөр зам байхгүй\""
+  },
+  {
+    "jp": "御存命の教祖",
+    "en": "the everliving Oyasama",
+    "zh": "永生的教祖",
+    "pt": "Oyassama eternamente viva",
+    "mn": "мөнхөд оршиж буй Оясама"
+  },
+  {
+    "jp": "世界いちれつ",
+    "en": "all people throughout the world",
+    "zh": "万般世界",
+    "pt": "Todas as pessoas do mundo",
+    "mn": "дэлхий ертөнц"
+  },
+  {
+    "jp": "紋型ないところから",
+    "en": "when there was no form",
+    "zh": "从虚无中",
+    "pt": "Sem ter algo como modelo",
+    "mn": "аливаа зүйлс биежин тогтоогүй орчноос"
+  },
+  {
+    "jp": "人間世界",
+    "en": "humankind and the world",
+    "zh": "人类世界",
+    "pt": "O mundo humano",
+    "mn": "хүн төрөлхтний дэлхий ертөнц"
+  },
+  {
+    "jp": "神人和楽の陽気",
+    "en": "(the) joy of the harmonious union of God and humankind",
+    "zh": "神人和乐的康乐",
+    "pt": "Uma inefável alegria em que participam juntos Deus e os seres humanos",
+    "mn": "бурхан хүн хамтдаа цэнгэлдэх энх баясгалан"
+  },
+  {
+    "jp": "元の理",
+    "en": "(the) truth of origin",
+    "zh": "创始之理",
+    "pt": "A razão da origem",
+    "mn": "Эх үүслийн ёс"
+  },
+  {
+    "jp": "元一日",
+    "en": "(the) day of origin",
+    "zh": "元始一日",
+    "pt": "O dia original",
+    "mn": "Эх үүслийн өдөр"
+  },
+  {
+    "jp": "どろ海",
+    "en": "muddy ocean",
+    "zh": "泥海",
+    "pt": "O mar de lama",
+    "mn": "шаварт далай"
+  },
+  {
+    "jp": "どぢよ",
+    "en": "loaches",
+    "zh": "泥鳅",
+    "pt": "Os cadozes",
+    "mn": "могой жарсан загас"
+  },
+  {
+    "jp": "うを",
+    "en": "fish",
+    "zh": "人鱼",
+    "pt": "O sirênio",
+    "mn": "загас"
+  },
+  {
+    "jp": "み",
+    "en": "serpent",
+    "zh": "白蛇",
+    "pt": "A cobra branca",
+    "mn": "могой"
+  },
+  {
+    "jp": "夫婦の雛型",
+    "en": "(the) models of husband and wife",
+    "zh": "夫妇雏型",
+    "pt": "O modelo original de casal humano",
+    "mn": "эхнэр нөхрийн загвар"
+  },
+  {
+    "jp": "しゃち",
+    "en": "orc",
+    "zh": "虎鲸",
+    "pt": "O golfinho",
+    "mn": "халим"
+  },
+  {
+    "jp": "かめ",
+    "en": "turtle",
+    "zh": "乌龟",
+    "pt": "A tartaruga",
+    "mn": "яст мэлмий"
+  },
+  {
+    "jp": "うなぎ",
+    "en": "eel",
+    "zh": "鳗鱼",
+    "pt": "A enguia",
+    "mn": "могой загас"
+  },
+  {
+    "jp": "かれい",
+    "en": "flatfish",
+    "zh": "蝶鱼",
+    "pt": "A solha",
+    "mn": "халпинь"
+  },
+  {
+    "jp": "くろぐつな",
+    "en": "black snake",
+    "zh": "黑蛇",
+    "pt": "A cobra preta",
+    "mn": "хар могой"
+  },
+  {
+    "jp": "ふぐ",
+    "en": "globe-fish",
+    "zh": "河豚",
+    "pt": "O baiacu",
+    "mn": "хос загас"
+  },
+  {
+    "jp": "引き寄せる",
+    "en": "draw forth",
+    "zh": "引到",
+    "pt": "Reunir / atrair / chamar",
+    "mn": "дэргэдээ ойртуулах"
+  },
+  {
+    "jp": "人間のたね",
+    "en": "seeds of human beings",
+    "zh": "人类的种子",
+    "pt": "A semente de ser humano",
+    "mn": "хүний үр"
+  },
+  {
+    "jp": "虫",
+    "en": "worms",
+    "zh": "虫",
+    "pt": "Os insetos",
+    "mn": "хорхой"
+  },
+  {
+    "jp": "鳥",
+    "en": "birds",
+    "zh": "鸟",
+    "pt": "Os pássaros",
+    "mn": "жигүүртэн"
+  },
+  {
+    "jp": "畜類",
+    "en": "beasts",
+    "zh": "兽类",
+    "pt": "Os mamíferos",
+    "mn": "амьтан зэрэг"
+  },
+  {
+    "jp": "めざる",
+    "en": "she-monkey",
+    "zh": "母猴",
+    "pt": "A macaca",
+    "mn": "эм сармагчин"
+  },
+  {
+    "jp": "知恵の仕込み/〜の仕込みをする",
+    "en": "train in wisdom",
+    "zh": "酝酿智慧",
+    "pt": "Instruir a inteligência",
+    "mn": "оюун ухаан хүртээх"
+  },
+  {
+    "jp": "文字の仕込み/〜の仕込みをする",
+    "en": "train in letters",
+    "zh": "传授文字",
+    "pt": "Instruir as letras.",
+    "mn": "бичиг үсэг"
+  },
+  {
+    "jp": "宿し込む",
+    "en": "conceive",
+    "zh": "孕育",
+    "pt": "Conceder-se",
+    "mn": "тээн төрүүлэх"
+  },
+  {
+    "jp": "甘露",
+    "en": "heavenly dew",
+    "zh": "甘露",
+    "pt": "O néctar",
+    "mn": "ариун дусал рашаан"
+  },
+  {
+    "jp": "病まず、死なず、弱らず",
+    "en": "freedom from illness, death, and weakening",
+    "zh": "不病、不死、不衰弱",
+    "pt": "Ficar livres da doença, da morte e do enfraquecimento",
+    "mn": "өвчлөхгүй, үхэхгүй, тамирдахгүй"
+  },
+  {
+    "jp": "親神の懐に抱かれる",
+    "en": "be embraced in the bosom of God the Parent",
+    "zh": "父母神的怀抱",
+    "pt": "Abrigado no seio de Deus-Parens",
+    "mn": "Эцэг Эх бурхны өвөрт тэврэх"
+  },
+  {
+    "jp": "おつとめ",
+    "en": "service",
+    "zh": "圣舞",
+    "pt": "O Serviço",
+    "mn": "Мөргөл"
+  },
+  {
+    "jp": "朝づとめ",
+    "en": "morning service",
+    "zh": "早拜",
+    "pt": "O Serviço matutino",
+    "mn": "Өглөөний мөргөл"
+  },
+  {
+    "jp": "夕づとめ",
+    "en": "evening service",
+    "zh": "晚拜",
+    "pt": "O Serviço vespertino ",
+    "mn": "Оройн мөргөл"
+  },
+  {
+    "jp": "座りづとめ",
+    "en": "seated service",
+    "zh": "坐拜",
+    "pt": "O Serviço sentado",
+    "mn": "Суугаа мөргөл"
+  },
+  {
+    "jp": "日参",
+    "en": "daily visit to a church",
+    "zh": "日参",
+    "pt": "A reverência diária",
+    "mn": "өдөр болгон мөргөл хийхээр очих"
+  },
+  {
+    "jp": "かぐら面",
+    "en": "kagura mask",
+    "zh": "神乐面具",
+    "pt": "A máscara de Kagura",
+    "mn": "Кагүра баг"
+  },
+  {
+    "jp": "かぐらづとめ",
+    "en": "(the) Kagura Service",
+    "zh": "神乐圣舞",
+    "pt": "O Serviço de Kagura",
+    "mn": "Кагүра багт мөргөл"
+  },
+  {
+    "jp": "よふきづとめ",
+    "en": "(the) Joyous Service",
+    "zh": "康乐圣舞",
+    "pt": "O Serviço Alegre",
+    "mn": "Энх баясгалант мөргөл"
+  },
+  {
+    "jp": "たすけづとめ",
+    "en": "(the) Salvation Service",
+    "zh": "拯救圣舞",
+    "pt": "O Serviço da Salvação ",
+    "mn": "Авралын мөргөл"
+  },
+  {
+    "jp": "かんろだいのつとめ",
+    "en": "(the) Service of the Kanrodai",
+    "zh": "甘露台圣舞",
+    "pt": "O Serviço de Kanrodai",
+    "mn": "Канродай мөргөл"
+  },
+  {
+    "jp": "をびやづとめ",
+    "en": "(the) Service for Safe Childbirth",
+    "zh": "安产圣舞",
+    "pt": "O Serviço do parto feliz",
+    "mn": "Эсэн мэнд амаржих мөргөл"
+  },
+  {
+    "jp": "はえでづとめ",
+    "en": "(the) Service for Germination",
+    "zh": "萌芽圣舞",
+    "pt": "O Serviço do brotamento",
+    "mn": "арвин ургацын мөргөл"
+  },
+  {
+    "jp": "お願いづとめ",
+    "en": "prayer service",
+    "zh": "祈愿圣舞",
+    "pt": "O Serviço de solicitação ",
+    "mn": "Ивээл даатгах мөргөл"
+  },
+  {
+    "jp": "お礼づとめ",
+    "en": "appreciation service",
+    "zh": "答谢圣舞",
+    "pt": "O Serviço de agradecimento ",
+    "mn": "Талархал дэвшүүлэх мөргөл"
+  },
+  {
+    "jp": "つとめ人衆",
+    "en": "Service performers",
+    "zh": "奉行圣舞人员",
+    "pt": "O pessoal do Serviço",
+    "mn": "Гагүра багт мөргөл гүйцэтгэгч"
+  },
+  {
+    "jp": "おつとめ奉仕者",
+    "en": "service performers",
+    "zh": "圣舞奉行者",
+    "pt": "O servidor do Serviço",
+    "mn": "Мөргөл хийх хүмүүс"
+  },
+  {
+    "jp": "手振り",
+    "en": "hand movements",
+    "zh": "手势",
+    "pt": "Movimento das mãos",
+    "mn": "Гарын хөдөлгөөн"
+  },
+  {
+    "jp": "よろづ一切",
+    "en": "all things",
+    "zh": "创世创人的一切；万般情",
+    "pt": "Todas as coisas",
+    "mn": "түмэн зүйл"
+  },
+  {
+    "jp": "いさい",
+    "en": "in detail",
+    "zh": "详尽；详告",
+    "pt": "Todos",
+    "mn": "түмэн зүйл"
+  },
+  {
+    "jp": "真実を尽くす",
+    "en": "exert one's sincerity",
+    "zh": "竭尽真诚",
+    "pt": "Dedicar a sinceridade",
+    "mn": "чин үнэн сэтгэлийг хандуулах"
+  },
+  {
+    "jp": "恵み",
+    "en": "blessings",
+    "zh": "慈惠",
+    "pt": "A graça",
+    "mn": "өгөөж"
+  },
+  {
+    "jp": "誠真実",
+    "en": "true sincerity",
+    "zh": "真诚之心",
+    "pt": "A sinceridade verdadeira",
+    "mn": "чин үнэн"
+  },
+  {
+    "jp": "誠の心",
+    "en": "(the) mind of sincerity",
+    "zh": "真诚之心",
+    "pt": "O espírito sincero",
+    "mn": "чин үнэн сэтгэл"
+  },
+  {
+    "jp": "誠の人",
+    "en": "person of sincerity",
+    "zh": "真诚的人",
+    "pt": "A pessoa sincera",
+    "mn": "чин үнэн сэтгэлтэй хүн"
+  },
+  {
+    "jp": "誠一つが天の理",
+    "en": "Sincerity alone is the truth of heaven.",
+    "zh": "真诚一理为天之理",
+    "pt": "A sinceridade é a razão do céu",
+    "mn": "үнэн шударга бол тэнгэрийн ёс"
+  },
+  {
+    "jp": "さづけの理",
+    "en": "(the) truth of the Sazuke",
+    "zh": "神授之理",
+    "pt": "O Dom do Sazuke",
+    "mn": "Сазүкэ ёс"
+  },
+  {
+    "jp": "道の路金",
+    "en": "travel expenses",
+    "zh": "旅費；盘川",
+    "pt": "A despesa de viagem",
+    "mn": "замын зардал"
+  },
+  {
+    "jp": "おさづけを取り次ぐ",
+    "en": "administer the Sazuke",
+    "zh": "行使神授",
+    "pt": "Ministrar o Sazuke",
+    "mn": "Сазүкэ ёсыг хүртээнэ"
+  },
+  {
+    "jp": "三日三夜",
+    "en": "three days and three nights",
+    "zh": "三天三夜",
+    "pt": "três dias e três noites",
+    "mn": "гурван өдөр гурван шөнө"
+  },
+  {
+    "jp": "つくしはこび",
+    "en": "contribution and dedication",
+    "zh": "献诚、致力",
+    "pt": "Conduzir-se e dedicar-se",
+    "mn": "сэтгэл зориулан хүчээ шавхах"
+  },
+  {
+    "jp": "病の根を切る",
+    "en": "sever the root of illness",
+    "zh": "消除病根",
+    "pt": "Cortar a raiz das doenças",
+    "mn": "өвчний үндэснийг таслах"
+  },
+  {
+    "jp": "我が身思案",
+    "en": "self-centered thoughts",
+    "zh": "自我为中心判断事情；只顾自身的想法",
+    "pt": "As cogitações egoísticas",
+    "mn": "дур зоргоороо"
+  },
+  {
+    "jp": "人間思案",
+    "en": "human thinking",
+    "zh": "世俗想法",
+    "pt": "As cogitações humanas",
+    "mn": "дур зоргоороо амин хувиа хичээх"
+  },
+  {
+    "jp": "自分中心の心遣い",
+    "en": "selfish use of the mind",
+    "zh": "自我为中心的想法",
+    "pt": "uso espiritual de forma egocêntrica",
+    "mn": "дур зоргоороо аашлах сэтгэл"
+  },
+  {
+    "jp": "心のほこりを払う",
+    "en": "sweep away the dusts of the mind",
+    "zh": "扫除心尘",
+    "pt": "Limpar as poeiras espirituais.",
+    "mn": "сэтгэлийн тоосыг арилгах"
+  },
+  {
+    "jp": "八つのほこり",
+    "en": "eight dusts of the mind",
+    "zh": "八种心尘",
+    "pt": "As oito poeiras espirituais",
+    "mn": "найман тоос"
+  },
+  {
+    "jp": "をしい",
+    "en": "miserliness",
+    "zh": "吝惜",
+    "pt": "A mesquinhez",
+    "mn": "харамч ховдог"
+  },
+  {
+    "jp": "ほしい",
+    "en": "covetousness",
+    "zh": "贪心",
+    "pt": "A cobiça",
+    "mn": "сувдаг шунахай"
+  },
+  {
+    "jp": "にくい",
+    "en": "hatred",
+    "zh": "憎恶",
+    "pt": "O ódio",
+    "mn": "жигшил зэвүүцэл"
+  },
+  {
+    "jp": "かわい",
+    "en": "self-love",
+    "zh": "偏爱",
+    "pt": "O amor-próprio",
+    "mn": "алагчлах үзэл"
+  },
+  {
+    "jp": "うらみ",
+    "en": "grudge-bearing",
+    "zh": "怨恨",
+    "pt": "O rancor",
+    "mn": "өшөө хорсон"
+  },
+  {
+    "jp": "はらだち",
+    "en": "anger",
+    "zh": "气愤",
+    "pt": "A raiva",
+    "mn": "уур хилэн"
+  },
+  {
+    "jp": "よく",
+    "en": "greed",
+    "zh": "私欲",
+    "pt": "A ambição",
+    "mn": "шунал тачаал"
+  },
+  {
+    "jp": "こうまん",
+    "en": "arrogance",
+    "zh": "骄傲",
+    "pt": "O orgulho",
+    "mn": "бардам дээрэнгүй"
+  },
+  {
+    "jp": "うそ",
+    "en": "falsehood",
+    "zh": "说谎",
+    "pt": "A mentira",
+    "mn": "худал"
+  },
+  {
+    "jp": "ついしょ",
+    "en": "flattery",
+    "zh": "谄媚",
+    "pt": "A lisonja",
+    "mn": "бялдууч"
+  },
+  {
+    "jp": "心遣い",
+    "en": "use of the mind",
+    "zh": "心念、心",
+    "pt": "O uso do espírito",
+    "mn": "сэтгэл"
+  },
+  {
+    "jp": "大難",
+    "en": "great misfortune",
+    "zh": "大难",
+    "pt": "Grandes males, grandes infortúnios",
+    "mn": "их гай барцад"
+  },
+  {
+    "jp": "小難",
+    "en": "small misfortune",
+    "zh": "小难",
+    "pt": "Pequenos males, pequenos infortúnios",
+    "mn": "бага гай барцад"
+  },
+  {
+    "jp": "無難",
+    "en": "no misfotune",
+    "zh": "无难",
+    "pt": "Sem dificuldades",
+    "mn": "гай барцдыг арилгах"
+  },
+  {
+    "jp": "身上・事情",
+    "en": "illness and trouble",
+    "zh": "疾病、烦恼",
+    "pt": "problemas físicos e problemas circunstanciais",
+    "mn": "өвчин эмгэг, бэрхшээл зовлон"
+  },
+  {
+    "jp": "節",
+    "en": "knot",
+    "zh": "枝节",
+    "pt": "O nó",
+    "mn": "модны үе"
+  },
+  {
+    "jp": "おていれ",
+    "en": "care",
+    "zh": "神治",
+    "pt": "O cuidado ",
+    "mn": "бурханы засалт"
+  },
+  {
+    "jp": "身上たすけの道",
+    "en": "(the) path of salvation from illness",
+    "zh": "拯救疾病之道",
+    "pt": "O caminho da salvação dos sofrimentos físicos ",
+    "mn": "өвчин эмгэгээс аврах зам"
+  },
+  {
+    "jp": "「人をたすけるのやで」",
+    "en": "\"Save other people.\"",
+    "zh": "“要拯救人呀！”",
+    "pt": "Deve salvar os outros",
+    "mn": "хүнд тус хүргээч"
+  },
+  {
+    "jp": "身上の障りや事情のもつれ",
+    "en": "illness and trouble",
+    "zh": "疾病或烦恼",
+    "pt": "Os molestamentos físicos e complicações circunstanciais",
+    "mn": "өвчин эмгэг, зовлон шаналал"
+  },
+  {
+    "jp": "立毛（りうけい）",
+    "en": "crops",
+    "zh": "农作物",
+    "pt": "O alimento",
+    "mn": "Тариа ногоо ургац"
+  },
+  {
+    "jp": "疫病",
+    "en": "epidemic",
+    "zh": "疫病",
+    "pt": "A Epidemia",
+    "mn": "халдварт өвчин"
+  },
+  {
+    "jp": "自然災害",
+    "en": "natural disaster",
+    "zh": "自然灾害",
+    "pt": "O desastre natural",
+    "mn": "байгалын гамшиг"
+  },
+  {
+    "jp": "ざんねん",
+    "en": "regret",
+    "zh": "神憾",
+    "pt": "O pesar",
+    "mn": "харамсал"
+  },
+  {
+    "jp": "りっぷく",
+    "en": "anger",
+    "zh": "神怒",
+    "pt": "A ira",
+    "mn": "уурлал"
+  },
+  {
+    "jp": "道具衆",
+    "en": "instruments",
+    "zh": "众道具",
+    "pt": "Os Instrumentos originais",
+    "mn": "багаж хэрэгсэл"
+  },
+  {
+    "jp": "十全の守護",
+    "en": "ten aspects of the complete providence (of God the Parent)",
+    "zh": "全能佑护",
+    "pt": "As dez providências divinas",
+    "mn": "Бүрэн төгс арван ивээл"
+  },
+  {
+    "jp": "眼うるおい",
+    "en": "providence of the eyes and fluids",
+    "zh": "滋润眼睛",
+    "pt": "Os olhos e umidade",
+    "mn": "нүдний шингэн"
+  },
+  {
+    "jp": "水の守護の理",
+    "en": "(the) providence of water",
+    "zh": "佑护水的功能之理",
+    "pt": "A providência da água",
+    "mn": "усны ивээлийн ёс"
+  },
+  {
+    "jp": "（人間身の内の）ぬくみ",
+    "en": "(the) providence of warmth",
+    "zh": "体温",
+    "pt": "A temperatura (no corpo humano)",
+    "mn": "(хүний биед) дулаан"
+  },
+  {
+    "jp": "火の守護の理",
+    "en": "(the) providence of fire",
+    "zh": "佑护火的功能之理",
+    "pt": "A providência do fogo",
+    "mn": "галын ивээлийн ёс"
+  },
+  {
+    "jp": "（人間身の内の）女一の道具",
+    "en": "(the) providence of the female organ",
+    "zh": "女性生殖",
+    "pt": "O órgão genital feminino  (no corpo humano)",
+    "mn": "(хүний биед)эм бэлгэ эрхтэн"
+  },
+  {
+    "jp": "皮つなぎ",
+    "en": "(the) providence of skin and joining",
+    "zh": "表皮及连结",
+    "pt": "A conexão da pele",
+    "mn": "арьс холбон залгах"
+  },
+  {
+    "jp": "万つなぎの守護の理",
+    "en": "(the) providence of joining in general",
+    "zh": "一切连结的功能之理",
+    "pt": "A providência da conexão em geral",
+    "mn": "бүхнийг холбон залгах ивээлийн ёс"
+  },
+  {
+    "jp": "（人間身の内の）男一の道具",
+    "en": "(the) providence of the male organ",
+    "zh": "男性生殖",
+    "pt": "O órgão genital masculino (no corpo humano)",
+    "mn": "(хүний биед)эр бэлгэ эрхтэн"
+  },
+  {
+    "jp": "骨つっぱり",
+    "en": "(the) providence of bones and support",
+    "zh": "骨骼及支撑",
+    "pt": "O esqueleto suportador ",
+    "mn": "яс түшиж тулах"
+  },
+  {
+    "jp": "万つっぱりの守護の理",
+    "en": "(the) providence of support in general",
+    "zh": "一切支撑的功能之理",
+    "pt": "A providência do suporte em geral",
+    "mn": "бүхнийг түшин тулах ивээлийн ёс"
+  },
+  {
+    "jp": "（人間身の内の）飲み食い出入り",
+    "en": "(the) providence of eating, drinking, and elimination",
+    "zh": "饮食、排泄",
+    "pt": "A entrada e saída dos alimentos  (no corpo humano)",
+    "mn": "(Хүний биед) идэж уух・шингээж гаргах,"
+  },
+  {
+    "jp": "水気上げ下げの守護の理",
+    "en": "(the) providence of the rise and fall of moisture",
+    "zh": "水汽上升或下降的功能之理",
+    "pt": "A providência da subida e descida da umidade",
+    "mn": "ус ууршиж хур тунадас буухын ивээлийн ёс"
+  },
+  {
+    "jp": "（人間身の内の）息吹き分け",
+    "en": "(the) providence of breathing and speaking",
+    "zh": "呼吸及发生",
+    "pt": "A respiração (no corpo humano)",
+    "mn": "(Хүний биед) амьсгалах・үг дуу гаргах"
+  },
+  {
+    "jp": "風の守護の理",
+    "en": "(the) providence of wind",
+    "zh": "风的功能之理",
+    "pt": "A providência do vento",
+    "mn": "салхины ивээлийн ёс"
+  },
+  {
+    "jp": "出産の時、親と子の胎縁を切り、出直しの時、息を引き取る世話",
+    "en": "(the) providence of cutting off the ties of the child to its mother at birth, and also in cutting off the breath of life when one passes away for rebirth",
+    "zh": "生产时使母子的胎缘分离，转生时断绝气息",
+    "pt": "A assistência divina de cortar a conexão do bebê com o útero da mãe no nascimento e de cortar a respiração no retornamento",
+    "mn": "Амаржих үед эх үрийн хүйг таслах, төрөл арилжих үед амьсгал тасрах"
+  },
+  {
+    "jp": "切ること一切の守護の理",
+    "en": "(the) providence of cutting in general",
+    "zh": "一切断绝的功能之理",
+    "pt": "A providência do corte em geral",
+    "mn": "таслах бүгдийн ивээлийн ёс"
+  },
+  {
+    "jp": "出産の時、親の胎内から子を引き出す世話",
+    "en": "(the) providence of pulling out the child from its mother during birth",
+    "zh": "生产时具有拉引胎儿的功能",
+    "pt": "A assistência divina de extrair a criança do útero da mãe no nascimento",
+    "mn": "Амаржих үед үрийг эхийн хэвлийгээс татаж гаргах"
+  },
+  {
+    "jp": "引き出し一切の守護の理",
+    "en": "(the) providence of pulling forth in general",
+    "zh": "一切拉引的功能之理",
+    "pt": "A providência da extração em geral",
+    "mn": "татаж гаргах бүгдийн ивээлийн ёс."
+  },
+  {
+    "jp": "男雛型",
+    "en": "(the) model of man",
+    "zh": "男雏形",
+    "pt": "O protótipo de homem",
+    "mn": "Эрэгтэй хүний загвар"
+  },
+  {
+    "jp": "種の理",
+    "en": "the seed",
+    "zh": "种源之理",
+    "pt": "A função de semente",
+    "mn": "үрийн ивээлийн ёс"
+  },
+  {
+    "jp": "女雛型",
+    "en": "(the) model of woman",
+    "zh": "女雏型",
+    "pt": "O protótipo de mulher",
+    "mn": "Эмэгтэй хүний загвар"
+  },
+  {
+    "jp": "苗代の理",
+    "en": "the seedplot",
+    "zh": "苗床之理",
+    "pt": "A função de viveiro",
+    "mn": "үрслүүрийн ивээлийн ёс"
+  },
+  {
+    "jp": "火・水・風",
+    "en": "fire, water, and wind",
+    "zh": "火、水、风",
+    "pt": "O fogo, a água e o vento",
+    "mn": "гал, ус салхи"
+  },
+  {
+    "jp": "ふたつひとつが天の理",
+    "en": "These two are one in the truth of heaven.",
+    "zh": "二者合一此乃天理",
+    "pt": "Dois em um é a razão celeste",
+    "mn": "хоёр ёс нэгдэн тэнгэрийн ёс болно"
+  },
+  {
+    "jp": "息のさづけ",
+    "en": "(the) Sazuke of Breath",
+    "zh": "气息神授",
+    "pt": "A concessão do Sopro",
+    "mn": "амьсгалт Сазүкэ"
+  },
+  {
+    "jp": "てをどりのさづけ",
+    "en": "(the) Sazuke of Hand Dance",
+    "zh": "手舞神授",
+    "pt": "A concessão da Dança das Mãos",
+    "mn": "Гар бүжгийн Сазүкэ"
+  },
+  {
+    "jp": "あしきはらひのさづけ",
+    "en": "(the) Sazuke of Ashikiharai",
+    "zh": "祈求邪恶皆除尽的神授",
+    "pt": "O Sazuke do Ashiki Harai",
+    "mn": "Ашики хараин Сазүкэ"
+  },
+  {
+    "jp": "扇",
+    "en": "fan",
+    "zh": "扇子",
+    "pt": "O leque",
+    "mn": "дэвүүр"
+  },
+  {
+    "jp": "互いに立て合い扶け合う",
+    "en": "help and respect one another",
+    "zh": "互敬互助",
+    "pt": "Respeitar e ajudar mutuamente / Salvar e ajudar uns aos outros",
+    "mn": "бие биеэнээ хүндлэн харилцан туслалцах"
+  },
+  {
+    "jp": "徳",
+    "en": "virtue",
+    "zh": "德分",
+    "pt": "O mérito",
+    "mn": "хишиг"
+  },
+  {
+    "jp": "徳分",
+    "en": "qualities and talents",
+    "zh": "德分",
+    "pt": "As qualidades / Virtudes",
+    "mn": "хишиг"
+  },
+  {
+    "jp": "かしもの・かりもの",
+    "en": "a thing lent, a thing borrowed",
+    "zh": "借贷之物",
+    "pt": "A coisa emprestada e tomada emprestada",
+    "mn": "Зээлсэн эд, зээлдүүлсэн эд"
+  },
+  {
+    "jp": "理の歌",
+    "en": "songs of truth",
+    "zh": "理之歌",
+    "pt": "Os hinos da razão",
+    "mn": "ёсны дуу"
+  },
+  {
+    "jp": "神一条",
+    "en": "single-heartedness with God",
+    "zh": "以神为上",
+    "pt": "A devoção única a Deus",
+    "mn": "Нэгэн сэтгэлээр бурханд итгэн дагах"
+  },
+  {
+    "jp": "前生いんねん",
+    "en": "causality from previous lives",
+    "zh": "前世的因缘",
+    "pt": "A predestinação das vidas anteriores",
+    "mn": "урьд төрлийн хувь тавилан"
+  },
+  {
+    "jp": "いんねんの自覚",
+    "en": "awareness of one's causality",
+    "zh": "因缘的自觉",
+    "pt": "A convicção da predestinação",
+    "mn": "хувь тавилангийн ухамсар"
+  },
+  {
+    "jp": "見るもいんねん・聞くもいんねん",
+    "en": "Whatever you see is causality; whatever you hear is causality.",
+    "zh": "所见是因缘，所闻亦因缘。",
+    "pt": "Ver também é predestinação, ouvir também é predestinação",
+    "mn": "харах нь ч хувь тавилан, сонсох нь ч хувь тавилан"
+  },
+  {
+    "jp": "たね",
+    "en": "seeds",
+    "zh": "种子",
+    "pt": "A semente",
+    "mn": "үр "
+  },
+  {
+    "jp": "善き種子",
+    "en": "good seeds",
+    "zh": "善种",
+    "pt": "Boas sementes",
+    "mn": "сайн үр"
+  },
+  {
+    "jp": "悪しき種子",
+    "en": "bad seeds",
+    "zh": "恶种",
+    "pt": "Más sementes",
+    "mn": "муу үр"
+  },
+  {
+    "jp": "てびき",
+    "en": "divine guidance",
+    "zh": "神引",
+    "pt": "A orientação",
+    "mn": "хөтлөл"
+  },
+  {
+    "jp": "心を定める",
+    "en": "settle the mind",
+    "zh": "下定决心",
+    "pt": "Determinar o espírito",
+    "mn": "сэтгэл тогтоох"
+  },
+  {
+    "jp": "信心",
+    "en": "faith",
+    "zh": "信心",
+    "pt": "A fé",
+    "mn": "сүсэг бишрэлийн сэтгэл"
+  },
+  {
+    "jp": "心一つが我の理",
+    "en": "The mind alone is ours.",
+    "zh": "心灵乃是属于自己的",
+    "pt": "Somente o espírito nos pertence",
+    "mn": "гагцхүү сэтгэл л өөрийнх юм"
+  },
+  {
+    "jp": "まごころ",
+    "en": "sincere heart",
+    "zh": "诚心诚意；一心一意；真诚",
+    "pt": "Espírito sincero",
+    "mn": "Чин үнэн сэтгэл"
+  },
+  {
+    "jp": "神にもたれる",
+    "en": "lean on God",
+    "zh": "依靠神",
+    "pt": "Amparar em Deus",
+    "mn": "Эцэг эх бурханыг түшиглэх"
+  },
+  {
+    "jp": "ごくらく",
+    "en": "paradise",
+    "zh": "极乐",
+    "pt": "O paraíso",
+    "mn": "амар амгалан"
+  },
+  {
+    "jp": "節から芽が出る",
+    "en": "Buds sprout from knots.",
+    "zh": "枝节萌芽",
+    "pt": "Do nó sai o broto",
+    "mn": "Модны үеэс нахиа соёлно"
+  },
+  {
+    "jp": "肥",
+    "en": "fertilizer",
+    "zh": "肥料",
+    "pt": "O fertilizante",
+    "mn": "бордоо"
+  },
+  {
+    "jp": "もっこを担う",
+    "en": "bear straw baskets",
+    "zh": "挑筐",
+    "pt": "Portar a padiola no ombro",
+    "mn": "сүрлэн сагс дамнах"
+  },
+  {
+    "jp": "ものだね",
+    "en": "seed of everything",
+    "zh": "好种苗；善种",
+    "pt": "Semente das coisas",
+    "mn": "үр"
+  },
+  {
+    "jp": "一れつ兄弟姉妹",
+    "en": "All human beings are brothers and sisters.",
+    "zh": "彼此皆为兄弟姐妹",
+    "pt": "Somos todos irmãos",
+    "mn": "хүн төрөлхтөн бие биенээ бүгд ахан дүүс"
+  },
+  {
+    "jp": "普請",
+    "en": "construction",
+    "zh": "建设",
+    "pt": "A construção",
+    "mn": "бүтээн байгуулалт"
+  },
+  {
+    "jp": "かんろだいの石普請",
+    "en": "(the) construction of the stone Kanrodai",
+    "zh": "建石造甘露台",
+    "pt": "A obra da pedra do Kanrodai",
+    "mn": "чулуун Канродай босгон тавих"
+  },
+  {
+    "jp": "陽気ぐらしへの普請の用材",
+    "en": "(the) material for the construction of the world of the Joyous Life",
+    "zh": "建设康乐生活的用材",
+    "pt": "Material para a construção do mundo de vida plena de alegria e felicidade",
+    "mn": "Энх баясгалант амьдралын бүтээн байгуулалтын материалын мод"
+  },
+  {
+    "jp": "陽気ぐらし世界建設",
+    "en": "(the) construction of the Joyous Life World",
+    "zh": "建设康乐生活世界",
+    "pt": "Construção do mundo de vida plena de alegria e felicidade",
+    "mn": "Энх баясгалант амьдралын ертөнцийн бүтээн байгуулалт"
+  },
+  {
+    "jp": "教えの理を取り次ぐ",
+    "en": "convey the teachings",
+    "zh": "传达教理",
+    "pt": "Transmitir a verdade do ensinamento",
+    "mn": "сургаалын ёсыг дамжуулах"
+  },
+  {
+    "jp": "心だすけの道",
+    "en": "(the) path of the salvation of the mind",
+    "zh": "拯救心灵之道",
+    "pt": "O caminho da salvaçâo espiritual",
+    "mn": "хүний сэтгэлийг аврах зам"
+  },
+  {
+    "jp": "道の先達",
+    "en": "pioneer of the path",
+    "zh": "天理之道（or 信仰）的先驱",
+    "pt": "Os pioneiros do caminho",
+    "mn": "сүсэг бишрэлийн замыг өвөг дээдэс"
+  },
+  {
+    "jp": "出直し",
+    "en": "passing away for rebirth",
+    "zh": "转生",
+    "pt": "O retornamento",
+    "mn": "төрөл арилжих"
+  },
+  {
+    "jp": "魂は生き通し",
+    "en": "Souls are everliving.",
+    "zh": "灵魂生生不息",
+    "pt": "A alma é eterna",
+    "mn": "сүнс өнө мөнхийн"
+  },
+  {
+    "jp": "生まれ変わり",
+    "en": "to be born and reborn into this world",
+    "zh": "重生",
+    "pt": "Renascer",
+    "mn": "төрөл арилжих"
+  },
+  {
+    "jp": "たんのう",
+    "en": "tanno",
+    "zh": "乐从",
+    "pt": "A satisfação sincera",
+    "mn": "баяртайгаар хүлээн авах"
+  },
+  {
+    "jp": "さんげ",
+    "en": "repentance",
+    "zh": "忏悔",
+    "pt": "O arrependimento",
+    "mn": "наминчлал"
+  },
+  {
+    "jp": "たんのうは前生いんねんのさんげ",
+    "en": "\"Tanno is accepted as the repentance for the causality from your previous lives.\"",
+    "zh": "乐从即前生因缘之忏悔",
+    "pt": "A satisfação sincera é o arrependimento das más predestinações das vidas anteriores",
+    "mn": "баяртайгаар хүлээн авах гэдэг бол урьд төрлийн хувь тавилангийн наминчлал"
+  },
+  {
+    "jp": "往還道",
+    "en": "broad path",
+    "zh": "康庄大道",
+    "pt": "O amplo caminho",
+    "mn": "дардан зам"
+  },
+  {
+    "jp": "あらきとうりょう",
+    "en": "pioneer of the path",
+    "zh": "荒木栋梁",
+    "pt": "O desbravador",
+    "mn": "Аракиторёо/модны даамал"
+  },
+  {
+    "jp": "一日生涯",
+    "en": "one day, a lifetime",
+    "zh": "一日生涯",
+    "pt": "O dia de toda vida",
+    "mn": "насан турштан тогтоон барих"
+  },
+  {
+    "jp": "一粒万倍",
+    "en": "ten thousandfold",
+    "zh": "一粒万倍",
+    "pt": "Um grão multiplicado em milhões",
+    "mn": "Нэг ширхэг үрийн түм дахин"
+  },
+  {
+    "jp": "一手一つ",
+    "en": "unity of mind",
+    "zh": "齐心合一",
+    "pt": "União espiritual",
+    "mn": "нэгэн сэтгэл нэг тэмүүлэлд зоригжих"
+  },
+  {
+    "jp": "三原典",
+    "en": "(the) Three Scriptures",
+    "zh": "三原典",
+    "pt": "Os três textos originais",
+    "mn": "гурван эх судар"
+  },
+  {
+    "jp": "おさしづ",
+    "en": "the Osashizu",
+    "zh": "御指图",
+    "pt": "As Indicações Divinas",
+    "mn": "Осашизү"
+  },
+  {
+    "jp": "おふでさき",
+    "en": "the Ofudesaki",
+    "zh": "御笔先",
+    "pt": "A Escritura Divina",
+    "mn": "Офүдэсаки"
+  },
+  {
+    "jp": "みかぐらうた",
+    "en": "the Mikagura-uta",
+    "zh": "神乐歌",
+    "pt": "Hinos Sagrados",
+    "mn": "Микагүра мөрглийн дуу"
+  },
+  {
+    "jp": "天理教教祖伝逸話編",
+    "en": "Anecdotes of Oyasama, the Foundress of Tenrikyo",
+    "zh": "天理教教祖传逸话篇",
+    "pt": "Os Episódios da Vida de Oyassama",
+    "mn": "Тэнрикёо Оясама Тууж"
+  },
+  {
+    "jp": "天理教教祖伝",
+    "en": "The Life of Oyasama, Foundress of Tenrikyo",
+    "zh": "天理教教祖传",
+    "pt": "A Vida de Oyassama - Minuta",
+    "mn": "Тэнрикёо Оясама намтар"
+  },
+  {
+    "jp": "天理教教典",
+    "en": "The Doctrine of Tenrikyo",
+    "zh": "天理教教典",
+    "pt": "A Doutrina da Tenrikyo",
+    "mn": "Тэнрикёогийн номлол"
+  },
+  {
+    "jp": "お道",
+    "en": "(the) path",
+    "zh": "天理之道",
+    "pt": "O caminho / O ensinamento (depende do contexto)",
+    "mn": "сүсэг бишрэлийн зам"
+  },
+  {
+    "jp": "末代",
+    "en": "endless generations",
+    "zh": "永世",
+    "pt": "As últimas gerações / as gerações futuras",
+    "mn": "мөнхөд үргэлжлэх"
+  },
+  {
+    "jp": "本部",
+    "en": "(Tenrikyo) Church Headquarters",
+    "zh": "本部",
+    "pt": "A Sede",
+    "mn": "Тенрикёо ерөнхий газар "
+  },
+  {
+    "jp": "上級教会",
+    "en": "parent church",
+    "zh": "上级教会",
+    "pt": "A igreja superior",
+    "mn": "дээд сүм"
+  },
+  {
+    "jp": "部内教会",
+    "en": "affiliated church",
+    "zh": "部属教会",
+    "pt": "A igreja afiliada",
+    "mn": "дотоод сүм"
+  },
+  {
+    "jp": "大教会",
+    "en": "grand church",
+    "zh": "大教会",
+    "pt": "A igreja-mor",
+    "mn": "том сүм"
+  },
+  {
+    "jp": "教会",
+    "en": "church",
+    "zh": "教会",
+    "pt": "A igreja",
+    "mn": "сүм"
+  },
+  {
+    "jp": "お社",
+    "en": "shrine ",
+    "zh": "神龛",
+    "pt": "Sacrário",
+    "mn": "Яширо буюу бурханы гэр"
+  },
+  {
+    "jp": "教会長",
+    "en": "head minister",
+    "zh": "教会长",
+    "pt": "O condutor da igreja",
+    "mn": "Сүмийн хамба"
+  },
+  {
+    "jp": "教服",
+    "en": "kyofuku robe",
+    "zh": "教服",
+    "pt": "A batina　(kyoufuku)",
+    "mn": "номлогчийн хувцас"
+  },
+  {
+    "jp": "教話",
+    "en": "sermon",
+    "zh": "教理讲话",
+    "pt": "A palestra",
+    "mn": "сургаалын яриа"
+  },
+  {
+    "jp": "企画チーム",
+    "en": "truth of effectiveness",
+    "zh": "功能之理",
+    "pt": "O dom da eficácia",
+    "mn": "ид шидийн ёс"
+  },
+  {
+    "jp": "こころさだめ",
+    "en": "resolution",
+    "zh": "下定决心",
+    "pt": "A determinação espiritual",
+    "mn": "сэтгэл тогтоон барьх"
+  },
+  {
+    "jp": "さんさいごころ",
+    "en": "(the) mind of a three-year-old child",
+    "zh": "三岁之心",
+    "pt": "O espírito de três anos",
+    "mn": "гурван настай сэтгэл"
+  },
+  {
+    "jp": "守護",
+    "en": "blessings",
+    "zh": "佑护",
+    "pt": "A providência",
+    "mn": "ивээл"
+  },
+  {
+    "jp": "生涯の心",
+    "en": "mind for a lifetime",
+    "zh": "终生之心",
+    "pt": "O espírito de uma vida",
+    "mn": "насан турштан баримтлах"
+  },
+  {
+    "jp": "天の定規",
+    "en": "(the) measure of heaven",
+    "zh": "天的规尺",
+    "pt": "A régua do céu",
+    "mn": "Тэнгэрийн захирагч"
+  },
+  {
+    "jp": "神人和楽",
+    "en": "(the) harmonious union of God and humankind",
+    "zh": "神人和乐",
+    "pt": "Harmonia entre Deus e os seres humanos",
+    "mn": "бурхан хүн хамтдаа цэнгэлдэх"
+  },
+  {
+    "jp": "成人",
+    "en": "spiritual maturity",
+    "zh": "心灵成长",
+    "pt": "A maturidade",
+    "mn": "итгэл бишрэлийн хөгжүүлэх"
+  },
+  {
+    "jp": "成人の節目",
+    "en": "crucial opportunity to grow spiritually",
+    "zh": "心灵成长的时节",
+    "pt": "Um ponto marcante da evolução espiritual",
+    "mn": "итгэл бишрэлээ хөгжүүлэх боломж"
+  },
+  {
+    "jp": "世界たすけ",
+    "en": "world salvation",
+    "zh": "世界拯救",
+    "pt": "A salvação mundial",
+    "mn": "дэлхий ертөнцийн аврал"
+  },
+  {
+    "jp": "陽気づくめの世界",
+    "en": "world filled with joy",
+    "zh": "康乐丰实的世界",
+    "pt": "O mundo repleto de alegria",
+    "mn": "Энх баясгалангаар дүүрсэн ертөнц"
+  },
+  {
+    "jp": "先人",
+    "en": "predecessors",
+    "zh": "先人",
+    "pt": "predescessor, antecessor",
+    "mn": "өвөг дээдэс"
+  },
+  {
+    "jp": "たすかる",
+    "en": "be saved",
+    "zh": "得救",
+    "pt": "Salvar",
+    "mn": "аврагдах"
+  },
+  {
+    "jp": "たすかる道",
+    "en": "(the) path leading to salvation",
+    "zh": "拯救之道",
+    "pt": "O caminho para salvar / O  caminho da salvação",
+    "mn": "аврагдах зам"
+  },
+  {
+    "jp": "たすけあい",
+    "en": "mutual help",
+    "zh": "互相帮助",
+    "pt": "A salvação mútua",
+    "mn": "бие биенээ харилцан туслалцах"
+  },
+  {
+    "jp": "人をたすける心",
+    "en": "(the) mind of saving others",
+    "zh": "拯救他人的心",
+    "pt": "O espírito de salvar os próximos",
+    "mn": "бусдыг аврах сэтгэл"
+  },
+  {
+    "jp": "人たすけて我が身たすかる",
+    "en": "Through saving others, you will be saved.",
+    "zh": "救人己亦必得救",
+    "pt": "Salvando os outros, estará salvando a si mesmo",
+    "mn": "Бусдыг аварвал өөрийн бие аврагдана"
+  },
+  {
+    "jp": "めずらしいたすけ",
+    "en": "marvelous salvation",
+    "zh": "珍奇拯救",
+    "pt": "A salvação extraordinária",
+    "mn": "гайхамшигтай аврал"
+  },
+  {
+    "jp": "よろづたすけ",
+    "en": "universal salvation",
+    "zh": "万般拯救",
+    "pt": "A salvação universal",
+    "mn": "Түмэн аврал"
+  },
+  {
+    "jp": "ふしぎなたすけ",
+    "en": "miraculous salvation",
+    "zh": "不可思议拯救",
+    "pt": "A salvação maravilhosa",
+    "mn": "гайхамшигтай аврал"
+  },
+  {
+    "jp": "理の親",
+    "en": "spiritual parent",
+    "zh": "理之亲",
+    "pt": "O pai espiritual",
+    "mn": "сургаал хүртээсэн хүн"
+  },
+  {
+    "jp": "理を立てる",
+    "en": "uphold the truth",
+    "zh": "依理而为",
+    "pt": "Respeitar a razão",
+    "mn": "сургаалыг хүндэтгэн дагах"
+  },
+  {
+    "jp": "御守護を頂く",
+    "en": "receive blessings",
+    "zh": "蒙获佑护",
+    "pt": "Receber a graça",
+    "mn": "ивээл хүртээх"
+  },
+  {
+    "jp": "お誓いの言葉",
+    "en": "(the) Besseki Pledge",
+    "zh": "别席誓词",
+    "pt": "O Voto do Besseki",
+    "mn": "тангаргын үг"
+  },
+  {
+    "jp": "別席",
+    "en": "(the) Besseki lecture",
+    "zh": "别席",
+    "pt": "O Besseki",
+    "mn": "бэссэки лекц"
+  },
+  {
+    "jp": "別席を運ぶ",
+    "en": "attend the Besseki lecture",
+    "zh": "聆听别席",
+    "pt": "Conduzir às sessões de Besseki",
+    "mn": "бэссэки лекц сонсох"
+  },
+  {
+    "jp": "席札",
+    "en": "Besseki attendance slip",
+    "zh": "别席单",
+    "pt": "A ficha do Besseki",
+    "mn": "бэссэки лекц сонсох хүснэгт"
+  },
+  {
+    "jp": "初席者",
+    "en": "a person attending the Besseki lecture for the first time",
+    "zh": "初席者",
+    "pt": "O ouvinte do primeiro Besseki",
+    "mn": "анх удаа Бэссэки лекц сонсогч"
+  },
+  {
+    "jp": "おかきさげ",
+    "en": "the Kakisage",
+    "zh": "神训",
+    "pt": "Okakisague (Palavras Divinas)",
+    "mn": "Какисагэ"
+  },
+  {
+    "jp": "仮席",
+    "en": "Post-Bestowal Lectures",
+    "zh": "结席讲话",
+    "pt": "Karisseki ",
+    "mn": "Хүртэн авсаны дараах яриа"
+  },
+  {
+    "jp": "よふぼく",
+    "en": "Yoboku",
+    "zh": "用木",
+    "pt": "Yoboku / A madeira usável",
+    "mn": "Ёобокү"
+  },
+  {
+    "jp": "教人",
+    "en": "lay minister",
+    "zh": "教人",
+    "pt": "O Mestre do Caminho",
+    "mn": "Тэнрикёо номлогч"
+  },
+  {
+    "jp": "お供え（金銭）",
+    "en": "donation(s)",
+    "zh": "奉献",
+    "pt": "A oferenda",
+    "mn": "өргөл (мөнгө)"
+  },
+  {
+    "jp": "お供え物",
+    "en": "offerings (of food and drink)",
+    "zh": "供奉品",
+    "pt": "A oferenda",
+    "mn": "өргөл"
+  },
+  {
+    "jp": "おさがり",
+    "en": "offerings taken down from the altar",
+    "zh": "撤供",
+    "pt": "A oferenda retirada",
+    "mn": "өргөлд барьсан зүйл"
+  },
+  {
+    "jp": "真柱様",
+    "en": "the Shinbashira",
+    "zh": "真柱先生",
+    "pt": "O Shimbashira",
+    "mn": "Шинбашира"
+  },
+  {
+    "jp": "布教",
+    "en": "missionary work",
+    "zh": "布教",
+    "pt": "A divulgação",
+    "mn": "Тэнрикёогийн сургаалыг түгэн дэлгэрүүлэх"
+  },
+  {
+    "jp": "にをいがけ",
+    "en": "spreading the fragrance of the teachings",
+    "zh": "播香",
+    "pt": "Expandir a fragrância",
+    "mn": "үнэр түгээх сургаалыг түгээх"
+  },
+  {
+    "jp": "神名流し",
+    "en": "spreading the name of God",
+    "zh": "宣扬神名",
+    "pt": "Divulgar o nome de Deus",
+    "mn": "Эцэг Эх бурхны нэрийг түгээх"
+  },
+  {
+    "jp": "路傍講演",
+    "en": "roadside speech",
+    "zh": "路旁演讲",
+    "pt": "O oratória de rua",
+    "mn": "гудаминд яриа тавих"
+  },
+  {
+    "jp": "神殿案内",
+    "en": "sanctuary guide",
+    "zh": "神殿导览",
+    "pt": "A visita guiada da igreja",
+    "mn": "Төв сүмийн танилцуулга"
+  },
+  {
+    "jp": "月次祭",
+    "en": "monthly service",
+    "zh": "月次祭",
+    "pt": "A Cerimônia Mensal",
+    "mn": "Сар бүрийн мөргөлийн өдөр"
+  },
+  {
+    "jp": "大祭",
+    "en": "grand service",
+    "zh": "大祭",
+    "pt": "A Grande Cerimônia",
+    "mn": "Их мөргөлийн өдөр"
+  },
+  {
+    "jp": "春季大祭",
+    "en": "(the) Spring Grand Service",
+    "zh": "春季大祭",
+    "pt": "A Grande Cerimônia de janeiro",
+    "mn": "Хаврын их мөргөлийн өдөр"
+  },
+  {
+    "jp": "秋季大祭",
+    "en": "(the) Autumn Grand Service",
+    "zh": "秋季大祭",
+    "pt": "A Grande Cerimônia de outubro",
+    "mn": "Намрын их мөргөлийн өдөр"
+  },
+  {
+    "jp": "元旦祭",
+    "en": "(the) New Year's Day Service",
+    "zh": "元旦祭",
+    "pt": "A Cerimônia do Ano-Novo",
+    "mn": "Цагаан сарын мөргөлийн өдөр"
+  },
+  {
+    "jp": "教祖御誕生祭",
+    "en": "(the) Oyasama Birth Celebration Service",
+    "zh": "教祖诞辰祭",
+    "pt": "A Festa Natalícia de Oyassama",
+    "mn": "Оясама төрсөн өдрийн баяр"
+  },
+  {
+    "jp": "教祖140年祭",
+    "en": "the 140th Anniversary of Oyasama",
+    "zh": "教祖140年祭",
+    "pt": "Os 140 anos do Ocultamento Físico de Oyassama",
+    "mn": "Оясама 140 жилийн ой"
+  },
+  {
+    "jp": "三年千日",
+    "en": "\"three years, one thousand days\"",
+    "zh": "三年千日",
+    "pt": "Os três anos, mil dias",
+    "mn": "гурван жил мянган өдөр"
+  },
+  {
+    "jp": "おぢばがえり",
+    "en": "pilgrimage to Jiba",
+    "zh": "返回原地",
+    "pt": "O regresso a Jiba",
+    "mn": "Жибад харин ирэх"
+  },
+  {
+    "jp": "勇む",
+    "en": "become spirited",
+    "zh": "踊跃",
+    "pt": "animar-se",
+    "mn": "сэтгэл зоригжих"
+  },
+  {
+    "jp": "旬",
+    "en": "season",
+    "zh": "时旬",
+    "pt": "O tempo oportuno",
+    "mn": "боломжийн үе"
+  },
+  {
+    "jp": "胸に治まる",
+    "en": "settle in one's heart",
+    "zh": "修至内心",
+    "pt": "Estabelecer no coração",
+    "mn": "зүрх сэтгэлдээ тогтоон барих"
+  },
+  {
+    "jp": "神の引き寄せ",
+    "en": "be drawn forth by God",
+    "zh": "神的招引；聚集",
+    "pt": "A orientação de Deus",
+    "mn": "бурханаас урих"
+  },
+  {
+    "jp": "信仰",
+    "en": "faith",
+    "zh": "信仰",
+    "pt": "A fé",
+    "mn": "сүсэг бишрэл "
+  },
+  {
+    "jp": "信仰初代",
+    "en": "first-generation follower",
+    "zh": "初代信仰者",
+    "pt": "O primeira geração da fé",
+    "mn": "анхны үеийн итгэгч"
+  },
+  {
+    "jp": "縦の伝道",
+    "en": "vertical mission",
+    "zh": "竖向传道",
+    "pt": "A transmissão vertical",
+    "mn": "Эцэг эхээс хүлээн авсан шашин шүтлэг дараагийн үеийн хүнд дамжуулах"
+  },
+  {
+    "jp": "道の子",
+    "en": "children of the path",
+    "zh": "天理子女",
+    "pt": "Os filhos do caminho",
+    "mn": "сүсэг бишрэлийн замын үр хүүхдүүд"
+  },
+  {
+    "jp": "感謝・慎み・たすけあい",
+    "en": "Gratitude, Moderation, Mutual Help",
+    "zh": "感谢、谨慎、互助",
+    "pt": "A gratidão, a satisfação e salvação mútua",
+    "mn": "талархал, хичээнгүйлэл,туслал"
+  },
+  {
+    "jp": "青年会",
+    "en": "(the) Young Men's Association",
+    "zh": "青年会",
+    "pt": "A Associação dos Moços",
+    "mn": "Тэнрикёо Залуучуудын холбоо"
+  },
+  {
+    "jp": "婦人会",
+    "en": "(the) Women's Association",
+    "zh": "妇女会",
+    "pt": "A Associação Feminina",
+    "mn": "Тэнрикёо Эмэгтэйчүүдийн холбоо"
+  },
+  {
+    "jp": "少年会",
+    "en": "(the) Boys and Girls Association",
+    "zh": "少年会",
+    "pt": "A Associação Infantojuvenil",
+    "mn": "Тэнрикёо Охид хөвгүүдийн холбоо"
+  },
+  {
+    "jp": "天理教教会本部",
+    "en": "Tenrikyo Church Headquarters",
+    "zh": "天理教教会本部",
+    "pt": "A Sede da Igreja Tenrikyo",
+    "mn": "Тенрикёо ерөнхий газар"
+  },
+  {
+    "jp": "元のぢば",
+    "en": "Jiba of Origin",
+    "zh": "元始原地",
+    "pt": "Jiba da origem",
+    "mn": "Эх үүслийн Жиба"
+  },
+  {
+    "jp": "神殿",
+    "en": "(the) Main Sanctuary",
+    "zh": "神殿",
+    "pt": "O Santuário Principal",
+    "mn": "их сүм"
+  },
+  {
+    "jp": "礼拝場",
+    "en": "worship hall",
+    "zh": "礼拜场",
+    "pt": "O Recinto de Reverência",
+    "mn": "мөргөлийн газар "
+  },
+  {
+    "jp": "教祖殿",
+    "en": "(the) Foundress' Sanctuary",
+    "zh": "教祖殿",
+    "pt": "Residência de Oyassama",
+    "mn": "Оясамагийн өргөө"
+  },
+  {
+    "jp": "祖霊殿",
+    "en": "(the) Memorial Hall",
+    "zh": "祖灵殿",
+    "pt": "O Memorial dos Antepassados",
+    "mn": "Өвөг дээдсийн өргөө"
+  },
+  {
+    "jp": "御用場",
+    "en": "(the) Foundress' Hall",
+    "zh": "御用场",
+    "pt": "Recinto de Trabalho",
+    "mn": "бурханы ажлын газар"
+  },
+  {
+    "jp": "祖霊様",
+    "en": "(the) memorial",
+    "zh": "祖灵",
+    "pt": "Os antepassados",
+    "mn": "өвөг дээдэс (сураалын дамжуулагч ахмагчын сүнс)"
+  },
+  {
+    "jp": "神殿講話",
+    "en": "sermon",
+    "zh": "神殿讲话",
+    "pt": "A palestra no Santuário Principal",
+    "mn": "мөргөлийн дараах яриа"
+  },
+  {
+    "jp": "中庭",
+    "en": "(the) Inner Courtyard",
+    "zh": "中庭",
+    "pt": "O pátio central",
+    "mn": "харш"
+  },
+  {
+    "jp": "御休息所",
+    "en": "(the) Resting House",
+    "zh": "休息所",
+    "pt": "A Casa de Repouso",
+    "mn": "амралтын өрөө"
+  },
+  {
+    "jp": "内蔵",
+    "en": "(the) Storehouse",
+    "zh": "库房",
+    "pt": "O Depósito Interno",
+    "mn": "дотуур агуулах"
+  },
+  {
+    "jp": "鳴物",
+    "en": "musical instruments",
+    "zh": "神乐器",
+    "pt": "Os instrumentos musicais",
+    "mn": "хөгжмийн зэмсэг"
+  },
+  {
+    "jp": "琴",
+    "en": "koto",
+    "zh": "古琴",
+    "pt": "Koto",
+    "mn": "ятга"
+  },
+  {
+    "jp": "三味線",
+    "en": "shamisen",
+    "zh": "三味线",
+    "pt": "Shamisem",
+    "mn": "шанз"
+  },
+  {
+    "jp": "胡弓",
+    "en": "kokyu",
+    "zh": "胡弓",
+    "pt": " Kokyu",
+    "mn": "хуучир"
+  },
+  {
+    "jp": "地方",
+    "en": "singer",
+    "zh": "歌唱者",
+    "pt": "O Cantor",
+    "mn": "Мөргөлийн дуу дуулах хүн"
+  },
+  {
+    "jp": "てをどり",
+    "en": "service dance",
+    "zh": "手舞",
+    "pt": "A Dança das Mãos",
+    "mn": "гарын бүжиг"
+  },
+  {
+    "jp": "笛",
+    "en": "flute",
+    "zh": "笛子",
+    "pt": "A Flauta",
+    "mn": "лимбэ"
+  },
+  {
+    "jp": "太鼓",
+    "en": "large drum",
+    "zh": "大鼓",
+    "pt": "O Bombo",
+    "mn": "бөмбөр"
+  },
+  {
+    "jp": "ちゃんぽん",
+    "en": "symbals",
+    "zh": "查查",
+    "pt": "O Címbalo",
+    "mn": "цан"
+  },
+  {
+    "jp": "すりがね",
+    "en": "gong",
+    "zh": "钲",
+    "pt": "O Gongo",
+    "mn": "сүриганэ"
+  },
+  {
+    "jp": "拍子木",
+    "en": "wooden clappers",
+    "zh": "拍子木",
+    "pt": "A Ritmadeira",
+    "mn": "цохилын мод"
+  },
+  {
+    "jp": "小鼓",
+    "en": "small drum",
+    "zh": "小鼓",
+    "pt": "O Tamboril",
+    "mn": "жижг бөмбөр"
+  },
+  {
+    "jp": "数取り",
+    "en": "counter",
+    "zh": "数穗",
+    "pt": "O Contador",
+    "mn": "тоолуур"
+  },
+  {
+    "jp": "八足",
+    "en": "stand",
+    "zh": "八足",
+    "pt": "A Mesinha",
+    "mn": "тавиур"
+  },
+  {
+    "jp": "祭主",
+    "en": "chief officiant",
+    "zh": "祭主",
+    "pt": "O Oficiante",
+    "mn": "(Бурханы зан үйлийн ёслол) Удирдагч"
+  },
+  {
+    "jp": "指図方",
+    "en": "director",
+    "zh": "指示者",
+    "pt": "Indicante",
+    "mn": "дохио өгөх хүн"
+  },
+  {
+    "jp": "扈者",
+    "en": "assistant",
+    "zh": "扈者",
+    "pt": "Assistente",
+    "mn": "дагагч"
+  },
+  {
+    "jp": "賛者",
+    "en": "attendant",
+    "zh": "赞者",
+    "pt": "O Auxiliar",
+    "mn": "(бурханы зан үйл) бэлтгэгч"
+  },
+  {
+    "jp": "合図木",
+    "en": "signal block",
+    "zh": "醒木",
+    "pt": "Madeira de sinal - aizugui",
+    "mn": "дохио өгөх"
+  },
+  {
+    "jp": "調弦",
+    "en": "tuning",
+    "zh": "调弦",
+    "pt": "A afinação",
+    "mn": "хөгжимийн зэмсэгийн хөвч тааруулах"
+  },
+  {
+    "jp": "譜面",
+    "en": "practice manual for musical instruments",
+    "zh": "乐谱",
+    "pt": "A partitura",
+    "mn": "хөгжмийн ноот"
+  },
+  {
+    "jp": "重ね打ち",
+    "en": "double beat",
+    "zh": "重打",
+    "pt": "A dupla batida",
+    "mn": "давтан цохих"
+  },
+  {
+    "jp": "詰所",
+    "en": "followers dormitory",
+    "zh": "诘所",
+    "pt": "O alojamento",
+    "mn": "Тэнрикёогийн дотуур байр"
+  },
+  {
+    "jp": "布教所",
+    "en": "mission station",
+    "zh": "布教所",
+    "pt": "A casa de divulgação",
+    "mn": "Цуглааны газар"
+  },
+  {
+    "jp": "出張所",
+    "en": "mission center",
+    "zh": "出张所",
+    "pt": "O centro missionário",
+    "mn": "Тэнрикёо түгэн дэлгэрүүлэх газар"
+  },
+  {
+    "jp": "伝道庁",
+    "en": "mission headquarters",
+    "zh": "传道厅",
+    "pt": "A sede missionária, Dendotyo",
+    "mn": "Тэнрикёо _______(улс/орон) дахь төв"
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  },
+  {
+    "jp": "",
+    "en": "",
+    "zh": "",
+    "pt": "",
+    "mn": ""
+  }
+]

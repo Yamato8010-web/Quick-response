@@ -75,10 +75,25 @@ let currentWord;
 
 async function loadJSON() {
 
-    const response = await fetch("words.json");
-    words = await response.json();
+    try {
 
-    nextQuestion();
+        const response = await fetch("words.json");
+
+        console.log(response);
+
+        words = await response.json();
+
+        console.log(words);
+
+        nextQuestion();
+
+    } catch(error) {
+
+        document.getElementById("question").innerText =
+            "エラー：" + error;
+
+        console.error(error);
+
+    }
+
 }
-
-loadJSON();

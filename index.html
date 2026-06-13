@@ -31,6 +31,33 @@ button{
     margin:10px;
     font-size:20px;
     cursor:pointer;
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+}
+
+.en{
+    background:#4285f4;
+}
+
+.zh{
+    background:#d32f2f;
+}
+
+.pt{
+    background:#2e7d32;
+}
+
+.mn{
+    background:#f57c00;
+}
+
+.en:hover,
+.zh:hover,
+.pt:hover,
+.mn:hover{
+    opacity:0.85;
 }
 
 </style>
@@ -45,13 +72,24 @@ button{
 
 <h2>言語を選択</h2>
 
-<button onclick="selectLanguage('en')">英語</button><br>
+<button class="en" onclick="selectLanguage('en')">
+🇺🇸 英語
+</button>
+<br>
 
-<button onclick="selectLanguage('zh')">中国語</button><br>
+<button class="zh" onclick="selectLanguage('zh')">
+🇨🇳 中国語
+</button>
+<br>
 
-<button onclick="selectLanguage('pt')">ポルトガル語</button><br>
+<button class="pt" onclick="selectLanguage('pt')">
+🇧🇷 ポルトガル語
+</button>
+<br>
 
-<button onclick="selectLanguage('mn')">モンゴル語</button>
+<button class="mn" onclick="selectLanguage('mn')">
+🇲🇳 モンゴル語
+</button>
 
 </div>
 
@@ -66,6 +104,7 @@ function selectLanguage(lang){
 }
 
 </script>
+
 </body>
 
 </html>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -59,10 +58,6 @@ button{
 
 <div id="answer"></div>
 
-<button onclick="showAnswer()">
-答えを見る
-</button>
-
 <button onclick="nextQuestion()">
 次へ
 </button>
@@ -115,15 +110,6 @@ function nextQuestion(){
     document.getElementById("question").innerText =
         currentWord.jp;
 
-    const utterance =
-        new SpeechSynthesisUtterance(currentWord.jp);
-
-    utterance.lang = "ja-JP";
-    utterance.rate = 1.0;
-
-    speechSynthesis.cancel();
-    speechSynthesis.speak(utterance);
-
     document.getElementById("answer").style.display =
         "none";
 
@@ -153,16 +139,28 @@ function nextQuestion(){
             document.getElementById("answer").innerText =
                 currentWord.en;
     }
-}
 
-function showAnswer(){
+    const utterance =
+        new SpeechSynthesisUtterance(currentWord.jp);
 
-    document.getElementById("answer").style.display =
-        "block";
+    utterance.lang = "ja-JP";
+    utterance.rate = 1.0;
+
+    speechSynthesis.cancel();
+    speechSynthesis.speak(utterance);
+
+    setTimeout(() => {
+
+        document.getElementById("answer").style.display =
+            "block";
+
+    }, 2000);
 
 }
 
 function goBack(){
+
+    speechSynthesis.cancel();
 
     window.location.href = "index.html";
 

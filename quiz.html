@@ -1,3 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>クイックレスポンス</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    text-align:center;
+    padding:30px;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+#question{
+    font-size:32px;
+    margin:40px 0;
+    font-weight:bold;
+}
+
+#answer{
+    font-size:28px;
+    color:#0066cc;
+    margin:30px 0;
+    display:none;
+}
+
+button{
+    padding:12px 25px;
+    margin:10px;
+    font-size:18px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>クイックレスポンス</h1>
+
+<div id="question">
+読み込み中...
+</div>
+
+<div id="answer"></div>
+
+<button onclick="showAnswer()">
+答えを見る
+</button>
+
+<button onclick="nextQuestion()">
+次へ
+</button>
+
+</div>
+
 <script>
 
 let words = [];
@@ -14,9 +84,6 @@ async function loadJSON() {
         }
 
         words = await response.json();
-
-        document.getElementById("question").innerText =
-            "読込成功：" + words.length + "件";
 
         nextQuestion();
 
@@ -84,3 +151,6 @@ function showAnswer(){
 loadJSON();
 
 </script>
+
+</body>
+</html>

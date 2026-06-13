@@ -79,20 +79,21 @@ async function loadJSON() {
 
         const response = await fetch("words.json");
 
-        console.log(response);
+        if(!response.ok){
+            throw new Error("words.json が見つかりません");
+        }
 
         words = await response.json();
 
-        console.log(words);
+        document.getElementById("question").innerText =
+            words.length + "件読み込み成功";
 
         nextQuestion();
 
     } catch(error) {
 
         document.getElementById("question").innerText =
-            "エラー：" + error;
-
-        console.error(error);
+            error.message;
 
     }
 

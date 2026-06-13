@@ -15,7 +15,9 @@ async function loadJSON() {
 
         words = await response.json();
 
-       
+        document.getElementById("question").innerText =
+            "読込成功：" + words.length + "件";
+
         nextQuestion();
 
     } catch(error) {

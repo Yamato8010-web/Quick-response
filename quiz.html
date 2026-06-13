@@ -1,73 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>クイックレスポンス</title>
-
-<style>
-
-body{
-    font-family: Arial, sans-serif;
-    background:#f5f5f5;
-    text-align:center;
-    padding:30px;
-}
-
-.container{
-    max-width:800px;
-    margin:auto;
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
-
-#question{
-    font-size:32px;
-    margin:40px 0;
-    font-weight:bold;
-}
-
-#answer{
-    font-size:28px;
-    color:#0066cc;
-    margin:30px 0;
-    display:none;
-}
-
-button{
-    padding:12px 25px;
-    margin:10px;
-    font-size:18px;
-}
-
-</style>
-</head>
-
-<body>
-
-<div class="container">
-
-<h1>クイックレスポンス</h1>
-
-<div id="question">
-読み込み中...
-</div>
-
-<div id="answer"></div>
-
-<button onclick="nextQuestion()">
-次へ
-</button>
-
-<button onclick="goBack()">
-言語選択へ戻る
-</button>
-
-</div>
-
+```html
 <script>
 
 let words = [];
@@ -143,7 +74,9 @@ function nextQuestion(){
                 currentWord.en;
     }
 
-    requestAnimationFrame(() => {
+    setTimeout(() => {
+
+        speechSynthesis.cancel();
 
         const utterance =
             new SpeechSynthesisUtterance(currentWord.jp);
@@ -153,14 +86,14 @@ function nextQuestion(){
 
         speechSynthesis.speak(utterance);
 
-    });
+    }, 100);
 
-   answerTimer = setTimeout(() => {
+    answerTimer = setTimeout(() => {
 
-    document.getElementById("answer").style.display =
-        "block";
+        document.getElementById("answer").style.display =
+            "block";
 
-}, 5000);
+    }, 5000);
 
 }
 
@@ -175,6 +108,3 @@ function goBack(){
 loadJSON();
 
 </script>
-
-</body>
-</html>

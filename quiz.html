@@ -72,6 +72,7 @@ button{
 
 let words = [];
 let currentWord;
+let answerTimer;
 
 async function loadJSON() {
 
@@ -100,6 +101,8 @@ async function loadJSON() {
 function nextQuestion(){
 
     if(words.length === 0) return;
+
+    clearTimeout(answerTimer);
 
     const lang =
         localStorage.getItem("language");

@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -66,6 +67,10 @@ button{
 次へ
 </button>
 
+<button onclick="goBack()">
+言語選択へ戻る
+</button>
+
 </div>
 
 <script>
@@ -110,6 +115,15 @@ function nextQuestion(){
     document.getElementById("question").innerText =
         currentWord.jp;
 
+    const utterance =
+        new SpeechSynthesisUtterance(currentWord.jp);
+
+    utterance.lang = "ja-JP";
+    utterance.rate = 1.0;
+
+    speechSynthesis.cancel();
+    speechSynthesis.speak(utterance);
+
     document.getElementById("answer").style.display =
         "none";
 
@@ -148,9 +162,16 @@ function showAnswer(){
 
 }
 
+function goBack(){
+
+    window.location.href = "index.html";
+
+}
+
 loadJSON();
 
 </script>
 
 </body>
 </html>
+```

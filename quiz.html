@@ -74,6 +74,20 @@ function nextQuestion(){
                 currentWord.en;
     }
 
+    setTimeout(() => {
+
+        speechSynthesis.cancel();
+
+        const utterance =
+            new SpeechSynthesisUtterance(currentWord.jp);
+
+        utterance.lang = "ja-JP";
+        utterance.rate = 1.0;
+
+        speechSynthesis.speak(utterance);
+
+    }, 100);
+
     answerTimer = setTimeout(() => {
 
         document.getElementById("answer").style.display =
@@ -84,6 +98,8 @@ function nextQuestion(){
 }
 
 function goBack(){
+
+    speechSynthesis.cancel();
 
     window.location.href = "index.html";
 

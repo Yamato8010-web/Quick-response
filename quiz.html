@@ -140,14 +140,17 @@ function nextQuestion(){
                 currentWord.en;
     }
 
-    const utterance =
-        new SpeechSynthesisUtterance(currentWord.jp);
+    requestAnimationFrame(() => {
 
-    utterance.lang = "ja-JP";
-    utterance.rate = 1.0;
+        const utterance =
+            new SpeechSynthesisUtterance(currentWord.jp);
 
-    speechSynthesis.cancel();
-    speechSynthesis.speak(utterance);
+        utterance.lang = "ja-JP";
+        utterance.rate = 1.0;
+
+        speechSynthesis.speak(utterance);
+
+    });
 
     setTimeout(() => {
 

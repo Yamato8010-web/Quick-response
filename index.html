@@ -53,7 +53,6 @@ h1{
 }
 
 .language-btn{
-    background:#4255ff;
     color:white;
     border:none;
     border-radius:18px;
@@ -62,6 +61,22 @@ h1{
     font-weight:bold;
     cursor:pointer;
     transition:all 0.2s ease;
+}
+
+.en{
+    background:#4CAF50;
+}
+
+.zh{
+    background:#F44336;
+}
+
+.pt{
+    background:#009688;
+}
+
+.mn{
+    background:#FF9800;
 }
 
 .language-btn:hover{
@@ -104,15 +119,15 @@ INTERPRETER TRAINING
 🇺🇸 English
 </button>
 
-<button class="language-btn" onclick="selectLanguage('zh')">
+<button class="language-btn zh" onclick="selectLanguage('zh')">
 🇨🇳 中文
 </button>
 
-<button class="language-btn" onclick="selectLanguage('pt')">
+<button class="language-btn pt" onclick="selectLanguage('pt')">
 🇧🇷 Português
 </button>
 
-<button class="language-btn" onclick="selectLanguage('mn')">
+<button class="language-btn mn" onclick="selectLanguage('mn')">
 🇲🇳 Монгол
 </button>
 

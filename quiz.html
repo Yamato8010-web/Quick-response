@@ -89,7 +89,10 @@ async function loadJSON() {
             throw new Error("words.json が見つかりません");
         }
 
-        words = await response.json();
+        words = (await response.json()).filter(item =>
+            item.jp &&
+            item.jp.trim() !== ""
+        );
 
         nextQuestion();
 
@@ -148,6 +151,22 @@ function nextQuestion(){
                 currentWord.en;
     }
 
+    setTimeout(() => {
+
+        if(!currentWord?.jp) return;
+
+        speechSynthesis.cancel();
+
+        const utterance =
+            new SpeechSynthesisUtterance(currentWord.jp);
+
+        utterance.lang = "ja-JP";
+        utterance.rate = 1.0;
+
+        speechSynthesis.speak(utterance);
+
+    }, 100);
+
     answerTimer = setTimeout(() => {
 
         document.getElementById("answer").style.display =
@@ -158,6 +177,8 @@ function nextQuestion(){
 }
 
 function goBack(){
+
+    speechSynthesis.cancel();
 
     window.location.href = "index.html";
 

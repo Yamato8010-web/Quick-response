@@ -114,6 +114,12 @@ button:active{
 .countdown-animation {
     animation: popIn 0.4s ease;
 }
+
+.selected-rating{
+    outline:4px solid white;
+    box-shadow:0 0 0 3px #333;
+    transform:scale(1.08);
+}
     
 </style>
 </head>
@@ -175,18 +181,27 @@ INTERPRETER TRAINING
 
     <div id="reviewButtons" style="display:none; margin-top:20px;">
 
-    <button onclick="rateAnswer('good')" style="background:#22c55e;">
-        🟢 できた
-    </button>
+  <button
+    id="goodBtn"
+    onclick="rateAnswer('good')"
+    style="background:#22c55e;">
+    🟢 できた
+</button>
 
-    <button onclick="rateAnswer('almost')" style="background:#f59e0b;">
-        🟡 もう少し
-    </button>
+<button
+    id="almostBtn"
+    onclick="rateAnswer('almost')"
+    style="background:#f59e0b;">
+    🟡 もう少し
+</button>
 
-    <button onclick="rateAnswer('hard')" style="background:#ef4444;">
-        🔴 がんばる
-    </button>
-
+<button
+    id="hardBtn"
+    onclick="rateAnswer('hard')"
+    style="background:#ef4444;">
+    🔴 がんばる
+</button>
+        
 </div>
     
 <button class="next-btn" onclick="nextQuestion()">
@@ -249,6 +264,9 @@ function nextQuestion(){
 
     document.getElementById("answer").style.display = "none";
     document.getElementById("reviewButtons").style.display = "none";
+    document.getElementById("goodBtn").classList.remove("selected-rating");
+    document.getElementById("almostBtn").classList.remove("selected-rating");
+    document.getElementById("hardBtn").classList.remove("selected-rating");
     document.getElementById("showAnswerBtn").style.display = "none";
     document.getElementById("timer").style.display = "none";
 
@@ -402,8 +420,30 @@ function showAnswer(){
     // 「答えを表示」ボタンを隠す
     document.getElementById("showAnswerBtn").style.display = "none";
 }
-    //自己評価ボタン
+    //自己評価ボタンを押した後のアクション
     function rateAnswer(result){
+
+    // いったん全部リセット
+    document.getElementById("goodBtn").classList.remove("selected-rating");
+    document.getElementById("almostBtn").classList.remove("selected-rating");
+    document.getElementById("hardBtn").classList.remove("selected-rating");
+
+    // 選択したものだけ強調
+    if(result === "good"){
+        document.getElementById("goodBtn").classList.add("selected-rating");
+    }
+
+    if(result === "almost"){
+        document.getElementById("almostBtn").classList.add("selected-rating");
+    }
+
+    if(result === "hard"){
+        document.getElementById("hardBtn").classList.add("selected-rating");
+    }
+
+    console.log("自己評価:", result);
+
+}
 
     console.log("自己評価:", result);
 

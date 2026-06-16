@@ -172,6 +172,22 @@ INTERPRETER TRAINING
 <button id="showAnswerBtn" onclick="showAnswer()" style="background:#22c55e;">
     答えを表示
 </button>
+
+    <div id="reviewButtons" style="display:none; margin-top:20px;">
+
+    <button onclick="rateAnswer('good')" style="background:#22c55e;">
+        🟢 できた
+    </button>
+
+    <button onclick="rateAnswer('almost')" style="background:#f59e0b;">
+        🟡 もう少し
+    </button>
+
+    <button onclick="rateAnswer('hard')" style="background:#ef4444;">
+        🔴 がんばる
+    </button>
+
+</div>
     
 <button class="next-btn" onclick="nextQuestion()">
 次へ
@@ -226,17 +242,20 @@ function nextQuestion(){
 
     if(words.length === 0) return;
 
+//スタート前のカウントダウン
  if(firstQuestion){
 
     firstQuestion = false;
 
     document.getElementById("answer").style.display = "none";
+    document.getElementById("reviewButtons").style.display = "none";
     document.getElementById("showAnswerBtn").style.display = "none";
     document.getElementById("timer").style.display = "none";
 
     const sequence = ["READY", "3", "2", "1"];
     let index = 0;
 
+     //カウントダウンテキストのアニメーション
     updateCountdownText(sequence[index]);
 
     const countdown = setInterval(() => {
@@ -376,9 +395,21 @@ function showAnswer(){
 
     // 答えを表示
     document.getElementById("answer").style.display = "block";
+    
+    //評価ボタンを表示
+    document.getElementById("reviewButtons").style.display = "block";
 
     // 「答えを表示」ボタンを隠す
     document.getElementById("showAnswerBtn").style.display = "none";
+}
+    //自己評価ボタン
+    function rateAnswer(result){
+
+    console.log("自己評価:", result);
+
+    // ボタンを押したら非表示
+    document.getElementById("reviewButtons").style.display = "none";
+
 }
 
 // -----------------------------

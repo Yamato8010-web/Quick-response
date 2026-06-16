@@ -93,6 +93,27 @@ button:active{
     justify-content:center;
     margin:20px 0;
 }
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+
+    60% {
+        transform: scale(1.15);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.countdown-animation {
+    animation: popIn 0.4s ease;
+}
     
 </style>
 </head>
@@ -216,7 +237,7 @@ function nextQuestion(){
     const sequence = ["READY", "3", "2", "1"];
     let index = 0;
 
-    document.getElementById("question").textContent = sequence[index];
+    updateCountdownText(sequence[index]);
 
     const countdown = setInterval(() => {
 
@@ -224,14 +245,14 @@ function nextQuestion(){
 
         if(index < sequence.length){
 
-            document.getElementById("question").textContent = sequence[index];
+           updateCountdownText(sequence[index]);
 
         }else{
 
             clearInterval(countdown);
 
             // GO! を表示
-            document.getElementById("question").textContent = "GO!";
+            updateCountdownText("GO!");
 
             setTimeout(() => {
 
@@ -255,13 +276,12 @@ function nextQuestion(){
 
     const lang = localStorage.getItem("language");
 
-   const word =
-    words[Math.floor(Math.random() * words.length)];
+ 　 const word = words.pop();
 
     document.getElementById("question").textContent = word.jp;
 
    document.getElementById("answer").style.display = "none";
-　　document.getElementById("showAnswerBtn").style.display = "inline-block";
+document.getElementById("showAnswerBtn").style.display = "inline-block";
 
     switch(lang){
 
@@ -332,6 +352,19 @@ function startTimer(){
     }, 30); // ←ここが重要（30msで滑らか）
 }
 
+function updateCountdownText(text){
+
+    const question = document.getElementById("question");
+
+    question.classList.remove("countdown-animation");
+
+    // アニメーションをリセット
+    void question.offsetWidth;
+
+    question.textContent = text;
+
+    question.classList.add("countdown-animation");
+}
 
 // -----------------------------
 // 答え表示

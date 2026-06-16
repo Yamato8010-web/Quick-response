@@ -179,6 +179,7 @@ async function loadJSON() {
         }
 
         words = await response.json();
+        words.sort(() => Math.random() - 0.5);
 
         nextQuestion();
 

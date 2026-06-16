@@ -313,7 +313,7 @@ function nextQuestion(){
 
     const lang = localStorage.getItem("language");
 
- 　 const word = words.pop();
+    const word = words.pop();
 
     document.getElementById("question").textContent = word.jp;
 
@@ -421,7 +421,7 @@ function showAnswer(){
     document.getElementById("showAnswerBtn").style.display = "none";
 }
     //自己評価ボタンを押した後のアクション
-    function rateAnswer(result){
+   function rateAnswer(result){
 
     // いったん全部リセット
     document.getElementById("goodBtn").classList.remove("selected-rating");
@@ -442,13 +442,6 @@ function showAnswer(){
     }
 
     console.log("自己評価:", result);
-
-}
-
-    console.log("自己評価:", result);
-
-    // ボタンを押したら非表示
-    document.getElementById("reviewButtons").style.display = "none";
 
 }
 

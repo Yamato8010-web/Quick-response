@@ -205,33 +205,44 @@ function nextQuestion(){
 
     if(words.length === 0) return;
 
-    if(firstQuestion){
+ if(firstQuestion){
 
     firstQuestion = false;
 
-    let count = 3;
-    document.getElementById("question").textContent = count;
     document.getElementById("answer").style.display = "none";
     document.getElementById("showAnswerBtn").style.display = "none";
     document.getElementById("timer").style.display = "none";
 
+    const sequence = ["READY", "3", "2", "1"];
+    let index = 0;
+
+    document.getElementById("question").textContent = sequence[index];
+
     const countdown = setInterval(() => {
 
-        count--;
+        index++;
 
-        if(count > 0){
+        if(index < sequence.length){
 
-            document.getElementById("question").textContent = count;
+            document.getElementById("question").textContent = sequence[index];
 
         }else{
 
             clearInterval(countdown);
 
-            document.getElementById("timer").style.display = "block";
-            document.getElementById("showAnswerBtn").style.display = "inline-block";
+            // GO! を表示
+            document.getElementById("question").textContent = "GO!";
 
-            // もう一度 nextQuestion を呼ぶ
-            nextQuestion();
+            setTimeout(() => {
+
+                document.getElementById("timer").style.display = "block";
+                document.getElementById("showAnswerBtn").style.display = "inline-block";
+
+                // 最初の問題へ
+                nextQuestion();
+
+            }, 500);
+
         }
 
     }, 1000);

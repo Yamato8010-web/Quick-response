@@ -204,7 +204,8 @@ function nextQuestion(){
 
     const lang = localStorage.getItem("language");
 
-    const word = words.pop();
+   const word =
+    words[Math.floor(Math.random() * words.length)];
 
     document.getElementById("question").textContent = word.jp;
 

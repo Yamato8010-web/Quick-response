@@ -148,7 +148,7 @@ INTERPRETER TRAINING
 
 <div id="answer"></div>
 
-<button onclick="showAnswer()">
+<button id="showAnswerBtn" onclick="showAnswer()">
 答えを表示
 </button>
     
@@ -214,7 +214,8 @@ function nextQuestion(){
 
     document.getElementById("question").textContent = word.jp;
 
-    document.getElementById("answer").style.display = "none";
+   document.getElementById("answer").style.display = "none";
+　　document.getElementById("showAnswerBtn").style.display = "inline-block";
 
     switch(lang){
 
@@ -294,10 +295,11 @@ function showAnswer(){
     // タイマー停止
     clearInterval(timer);
 
-    document.getElementById("timer").textContent = "0";
-
-    // 答え表示
+    // 答えを表示
     document.getElementById("answer").style.display = "block";
+
+    // 「答えを表示」ボタンを隠す
+    document.getElementById("showAnswerBtn").style.display = "none";
 }
 
 // -----------------------------

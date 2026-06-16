@@ -168,6 +168,7 @@ let words = [];
 let answerTimer;
 let timer;
 let timeLeft = 5;
+let firstQuestion = true;
 
 // -----------------------------
 // JSON読み込み
@@ -203,6 +204,40 @@ async function loadJSON() {
 function nextQuestion(){
 
     if(words.length === 0) return;
+
+    if(firstQuestion){
+
+    firstQuestion = false;
+
+    let count = 3;
+    document.getElementById("question").textContent = count;
+    document.getElementById("answer").style.display = "none";
+    document.getElementById("showAnswerBtn").style.display = "none";
+    document.getElementById("timer").style.display = "none";
+
+    const countdown = setInterval(() => {
+
+        count--;
+
+        if(count > 0){
+
+            document.getElementById("question").textContent = count;
+
+        }else{
+
+            clearInterval(countdown);
+
+            document.getElementById("timer").style.display = "block";
+            document.getElementById("showAnswerBtn").style.display = "inline-block";
+
+            // もう一度 nextQuestion を呼ぶ
+            nextQuestion();
+        }
+
+    }, 1000);
+
+    return;
+}
 
     clearTimeout(answerTimer);
     clearInterval(timer);

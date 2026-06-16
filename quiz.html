@@ -4,9 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="app-title">
-Quick Response
-</div>
+<title>Quick Response</title>
 
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
@@ -21,8 +19,6 @@ body{
     padding:30px;
 }
 
- 
-
 .container{
     max-width:800px;
     margin:auto;
@@ -32,7 +28,7 @@ body{
     box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-   .app-title{
+.app-title{
     display:inline-block;
     background:white;
     color:#4255ff;
@@ -40,27 +36,25 @@ body{
     font-weight:800;
     padding:18px 40px;
     border-radius:20px;
-
     box-shadow:
         0 6px 0 #d9defa,
         0 12px 24px rgba(0,0,0,0.08);
-
     margin-bottom:30px;
 }
-    
+
 #question{
     font-size:32px;
     margin:40px 0;
     font-weight:bold;
 }
 
-#timer {
-    font-size: 28px;
-    font-weight: bold;
-    color: #ff3b30;
-    margin: 10px 0;
+#timer{
+    font-size:28px;
+    font-weight:bold;
+    color:#ff3b30;
+    margin:10px 0;
 }
-    
+
 #answer{
     font-size:28px;
     color:#0066cc;
@@ -80,16 +74,11 @@ button{
     cursor:pointer;
     transition:all 0.2s ease;
 }
-    
-.next-btn {
-    background: #ff3b30;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-weight: bold;
+
+.next-btn{
+    background:#ff3b30;
 }
-    
+
 button:hover{
     transform:translateY(-2px);
     box-shadow:0 6px 15px rgba(66,85,255,0.3);
@@ -106,6 +95,10 @@ button:active{
 
 <div class="container">
 
+<div class="app-title">
+Quick Response
+</div>
+
 <div style="
 color:#4255ff;
 font-weight:bold;
@@ -116,13 +109,12 @@ margin-bottom:10px;
 INTERPRETER TRAINING
 </div>
 
-
 <div id="question">
 読み込み中...
 </div>
 
 <div id="timer">5</div>
-    
+
 <div id="answer"></div>
 
 <button class="next-btn" onclick="nextQuestion()">
@@ -138,9 +130,13 @@ INTERPRETER TRAINING
 <script>
 
 let words = [];
-let currentWord;
 let answerTimer;
+let timer;
+let timeLeft = 5;
 
+// -----------------------------
+// JSON読み込み
+// -----------------------------
 async function loadJSON() {
 
     try {
@@ -151,10 +147,7 @@ async function loadJSON() {
             throw new Error("words.json が見つかりません");
         }
 
-        words = (await response.json()).filter(item =>
-            item.jp &&
-            item.jp.trim() !== ""
-        );
+        words = await response.json();
 
         nextQuestion();
 
@@ -168,6 +161,9 @@ async function loadJSON() {
     }
 }
 
+// -----------------------------
+// 次の問題
+// -----------------------------
 function nextQuestion(){
 
     if(words.length === 0) return;
@@ -175,69 +171,79 @@ function nextQuestion(){
     clearTimeout(answerTimer);
     clearInterval(timer);
 
-    const lang =
-        localStorage.getItem("language");
-    
+    const lang = localStorage.getItem("language");
+
     const word = words.pop();
 
     document.getElementById("question").textContent = word.jp;
-    document.getElementById("answer").textContent = word.en;
 
     document.getElementById("answer").style.display = "none";
-
-    startTimer();
-    
-    currentWord =
-        words[Math.floor(Math.random() * words.length)];
-
-    document.getElementById("question").innerText =
-        currentWord.jp;
-
-    document.getElementById("answer").style.display =
-        "none";
 
     switch(lang){
 
         case "en":
-            document.getElementById("answer").innerText =
-                currentWord.en;
+            document.getElementById("answer").textContent = word.en;
             break;
 
         case "zh":
-            document.getElementById("answer").innerText =
-                currentWord.zh;
+            document.getElementById("answer").textContent = word.zh;
             break;
 
         case "pt":
-            document.getElementById("answer").innerText =
-                currentWord.pt;
+            document.getElementById("answer").textContent = word.pt;
             break;
 
         case "mn":
-            document.getElementById("answer").innerText =
-                currentWord.mn;
+            document.getElementById("answer").textContent = word.mn;
             break;
 
         default:
-            document.getElementById("answer").innerText =
-                currentWord.en;
+            document.getElementById("answer").textContent = word.en;
     }
 
-    answerTimer = setTimeout(() => {
-
-        document.getElementById("answer").style.display =
-            "block";
-
-    }, 5000);
-
+    startTimer();
 }
 
+// -----------------------------
+// タイマー
+// -----------------------------
+function startTimer(){
+
+    clearInterval(timer);
+
+    timeLeft = 5;
+    document.getElementById("timer").textContent = timeLeft;
+
+    timer = setInterval(() => {
+
+        timeLeft--;
+        document.getElementById("timer").textContent = timeLeft;
+
+        if(timeLeft <= 0){
+            clearInterval(timer);
+            showAnswer();
+        }
+
+    }, 1000);
+}
+
+// -----------------------------
+// 答え表示
+// -----------------------------
+function showAnswer(){
+    document.getElementById("answer").style.display = "block";
+}
+
+// -----------------------------
+// 戻る
+// -----------------------------
 function goBack(){
-
     window.location.href = "index.html";
-
 }
 
+// -----------------------------
+// 起動
+// -----------------------------
 loadJSON();
 
 </script>

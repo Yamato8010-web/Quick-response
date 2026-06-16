@@ -148,6 +148,10 @@ INTERPRETER TRAINING
 
 <div id="answer"></div>
 
+<button onclick="showAnswer()">
+答えを表示
+</button>
+    
 <button class="next-btn" onclick="nextQuestion()">
 次へ
 </button>
@@ -286,6 +290,13 @@ function startTimer(){
 // 答え表示
 // -----------------------------
 function showAnswer(){
+
+    // タイマー停止
+    clearInterval(timer);
+
+    document.getElementById("timer").textContent = "0";
+
+    // 答え表示
     document.getElementById("answer").style.display = "block";
 }
 

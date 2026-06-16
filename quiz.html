@@ -242,32 +242,41 @@ function startTimer(){
 
     clearInterval(timer);
 
-    timeLeft = 5;
-    document.getElementById("timer").textContent = timeLeft;
+    const totalTime = 5;
+    let start = Date.now();
 
     const circle = document.getElementById("progress");
     const radius = 45;
     const circumference = 2 * Math.PI * radius;
 
-    let time = 5;
-
     circle.style.strokeDasharray = circumference;
-    circle.style.strokeDashoffset = 0;
 
     timer = setInterval(() => {
 
-        timeLeft--;
-        time--;
+        let elapsed = (Date.now() - start) / 1000;
+        let remaining = totalTime - elapsed;
 
-        if(timeLeft <= 0){
+        if(remaining <= 0){
+            remaining = 0;
+        }
+
+        // 🔵 数字更新（常に）
+        document.getElementById("timer").textContent =
+            Math.ceil(remaining);
+
+        // 🔵 円の進行（滑らか）
+        let progress = remaining / totalTime;
+        let offset = circumference - (progress * circumference);
+
+        circle.style.strokeDashoffset = offset;
+
+        // 終了
+        if(remaining <= 0){
             clearInterval(timer);
             showAnswer();
         }
 
-        const offset = circumference - (time / 5) * circumference;
-        circle.style.strokeDashoffset = offset;
-
-    }, 1000);
+    }, 30); // ←ここが重要（30msで滑らか）
 }
 
 

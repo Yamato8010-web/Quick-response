@@ -54,6 +54,13 @@ body{
     font-weight:bold;
 }
 
+#timer {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff3b30;
+    margin: 10px 0;
+}
+    
 #answer{
     font-size:28px;
     color:#0066cc;
@@ -114,6 +121,8 @@ INTERPRETER TRAINING
 読み込み中...
 </div>
 
+<div id="timer">5</div>
+    
 <div id="answer"></div>
 
 <button class="next-btn" onclick="nextQuestion()">
@@ -164,10 +173,20 @@ function nextQuestion(){
     if(words.length === 0) return;
 
     clearTimeout(answerTimer);
+    clearInterval(timer);
 
     const lang =
         localStorage.getItem("language");
+    
+    const word = words.pop();
 
+    document.getElementById("question").textContent = word.jp;
+    document.getElementById("answer").textContent = word.en;
+
+    document.getElementById("answer").style.display = "none";
+
+    startTimer();
+    
     currentWord =
         words[Math.floor(Math.random() * words.length)];
 

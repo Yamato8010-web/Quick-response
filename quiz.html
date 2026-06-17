@@ -120,6 +120,11 @@ button:active{
     box-shadow:0 0 0 3px #333;
     transform:scale(1.08);
 }
+
+#pauseBtn{
+    display:none;
+    background:#111;
+}
     
 </style>
 </head>
@@ -274,6 +279,7 @@ function nextQuestion(){
     document.getElementById("hardBtn").classList.remove("selected-rating");
     document.getElementById("showAnswerBtn").style.display = "none";
     document.getElementById("timer").style.display = "none";
+    document.getElementById("pauseBtn").style.display = "none";
 
     const sequence = ["READY", "3", "2", "1"];
     let index = 0;
@@ -301,6 +307,9 @@ function nextQuestion(){
                 document.getElementById("timer").style.display = "block";
                 document.getElementById("showAnswerBtn").style.display = "inline-block";
 
+                 // 一時停止ボタンを表示（ここで初めて出す）
+                document.getElementById("pauseBtn").style.display = "inline-block";
+                
                 // 最初の問題へ
                 nextQuestion();
 

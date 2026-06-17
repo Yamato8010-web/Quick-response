@@ -140,6 +140,17 @@ button:active{
     letter-spacing:1px;
     margin-top:4px;
 }  
+
+#reviewButtons button{
+    background:#f3f4f6;
+    color:#333;
+    border:2px solid transparent;
+    border-radius:14px;
+    padding:12px 18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+    
 </style>
 </head>
 
@@ -245,6 +256,7 @@ let timer;
 let timeLeft = 5;
 let firstQuestion = true;
 let paused = false;
+let startTime;
 
 const totalTime = 5;
 // -----------------------------
@@ -387,40 +399,36 @@ function startTimer(){
 
     clearInterval(timer);
 
+    startTime = Date.now();  // ←ここに追加
+
     const circle = document.getElementById("progress");
     const radius = 45;
     const circumference = 2 * Math.PI * radius;
 
     circle.style.strokeDasharray = circumference;
 
-    timer = setInterval(() => {
+   timer = setInterval(() => {
 
-        if(paused){
-            return;
-        }
+    if(paused) return;
 
-        timeLeft -= 0.03;
+    const elapsed = (Date.now() - startTime) / 1000;
+    timeLeft = totalTime - elapsed;
 
-        if(timeLeft < 0){
-            timeLeft = 0;
-        }
+    if(timeLeft < 0) timeLeft = 0;
 
-        // 数字
-        document.getElementById("timer").textContent =
-            Math.ceil(timeLeft);
+    document.getElementById("timer").textContent =
+        Math.ceil(timeLeft);
 
-        // 円形タイマー
-        const progress = timeLeft / totalTime;
-        circle.style.strokeDashoffset =
-            circumference - (progress * circumference);
+    const progress = timeLeft / totalTime;
+    circle.style.strokeDashoffset =
+        circumference - (progress * circumference);
 
-        // 時間切れ
-        if(timeLeft <= 0){
-            clearInterval(timer);
-            showAnswer();
-        }
+    if(timeLeft <= 0){
+        clearInterval(timer);
+        showAnswer();
+    }
 
-    }, 30);
+}, 30);
 
 }
 

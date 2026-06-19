@@ -464,7 +464,11 @@ function nextQuestion(){
 paused = false;
 timeLeft = totalTime;
 
-document.getElementById("pauseBtn").textContent = "⏸";
+const btn = document.getElementById("pauseBtn");
+btn.textContent = "⏸";
+btn.style.background = "#ef4444"; // 赤
+btn.style.color = "white";
+
 const word = words.pop();
 
 const solved = totalWords - words.length;
@@ -610,17 +614,19 @@ function togglePause(){
     paused = !paused;
 
     const btn = document.getElementById("pauseBtn");
-    btn.style.animation = "none";
-    void btn.offsetWidth; // アニメーションをリセット
-    btn.style.animation = "pausePop 0.25s ease";
-    
+
     if(paused){
-    document.getElementById("pauseBtn").textContent = "▶";
-}else{
-    document.getElementById("pauseBtn").textContent = "⏸";
+        // 停止中 → 再生ボタンを表示
+        btn.textContent = "▶";
+        btn.style.background = "#84cc16"; // 黄緑
+        btn.style.color = "white";
+    }else{
+        // 動作中 → 一時停止ボタンを表示
+        btn.textContent = "⏸";
+        btn.style.background = "#ef4444"; // 赤
+        btn.style.color = "white";
     }
 }
-
     
 // -----------------------------
 // 戻る

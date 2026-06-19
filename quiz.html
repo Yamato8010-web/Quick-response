@@ -257,8 +257,10 @@ body.dark .title-main,
 body.dark .title-sub{
     color:black;
 }
-.dark-mode-area{
-    text-align:right;
+.top-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
     margin-bottom:10px;
 }
 
@@ -295,6 +297,12 @@ body.dark .title-sub{
         height: 32px;
         font-size: 16px;
     }
+    
+    #backLangBtn{
+    padding:6px 10px;
+    font-size:14px;
+    border-radius:10px;
+}
 
     #reviewButtons button{
         font-size: 14px;
@@ -309,8 +317,12 @@ body.dark .title-sub{
 
 <div class="container">
 
-<div class="dark-mode-area">
+<div class="top-bar">
     <button id="darkModeBtn" onclick="toggleDarkMode()">🌙</button>
+
+    <button id="backLangBtn" onclick="goBack()">
+        言語選択へ戻る
+    </button>
 </div>
 
 <div class="app-title">

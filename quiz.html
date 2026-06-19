@@ -340,6 +340,14 @@ function nextQuestion(){
     clearTimeout(answerTimer);
     clearInterval(timer);
 
+    // 評価ボタンを隠す
+    document.getElementById("reviewButtons").style.display = "none";
+
+    // 選択状態をリセット
+    document.getElementById("goodBtn").classList.remove("selected-rating");
+    document.getElementById("almostBtn").classList.remove("selected-rating");
+    document.getElementById("hardBtn").classList.remove("selected-rating");
+
     const lang = localStorage.getItem("language");
 
 paused = false;

@@ -116,9 +116,10 @@ button:active{
 }
 
 .selected-rating{
-    outline:4px solid white;
-    box-shadow:0 0 0 3px #333;
-    transform:scale(1.08);
+    background:#d1d5db !important;
+    border-width:4px !important;
+    transform:scale(1.05);
+}
 }
     
 #pauseBtn{
@@ -223,23 +224,21 @@ INTERPRETER TRAINING
 
     <div id="reviewButtons" style="display:none; margin-top:20px;">
 
-  <button
+ <button
     id="goodBtn"
-    onclick="rateAnswer('good')"
+    onclick="rateAnswer('good')">
     🟢 できた
 </button>
 
 <button
     id="almostBtn"
-    onclick="rateAnswer('almost')"
-    style="background:#f59e0b;">
+    onclick="rateAnswer('almost')">
     🟡 もう少し
 </button>
 
 <button
     id="hardBtn"
-    onclick="rateAnswer('hard')"
-    style="background:#ef4444;">
+    onclick="rateAnswer('hard')">
     🔴 がんばる
 </button>
         

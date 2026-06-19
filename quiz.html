@@ -346,6 +346,8 @@ function nextQuestion(){
 
     firstQuestion = false;
 
+    document.getElementById("progressText").style.display = "none";
+    document.getElementById("progressBar").style.display = "none";
     document.getElementById("answer").style.display = "none";
     document.getElementById("reviewButtons").style.display = "none";
     document.getElementById("goodBtn").classList.remove("selected-rating");
@@ -378,9 +380,14 @@ function nextQuestion(){
 
             setTimeout(() => {
 
+                //タイマーと答えを見るボタンを一旦非表示
                 document.getElementById("timer").style.display = "block";
                 document.getElementById("showAnswerBtn").style.display = "inline-block";
-                 
+                
+                //進捗バー、数字一旦非表示
+                document.getElementById("progressText").style.display = "block";
+                document.getElementById("progressBar").style.display = "block";
+                
                 // 一時停止ボタンを表示（ここで初めて出す）
                 document.getElementById("pauseBtn").style.display = "inline-block";
                

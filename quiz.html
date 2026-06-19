@@ -120,7 +120,7 @@ button:active{
     border-width:4px !important;
     transform:scale(1.05);
 }
-}
+
     
 #pauseBtn{
     display:none;
@@ -163,6 +163,37 @@ button:active{
 #hardBtn{
     border-color:#ef4444;
 }
+
+#progressText{
+    font-size:18px;
+    font-weight:bold;
+    color:#666;
+    margin-bottom:15px;
+}
+#progressText{
+    font-size:16px;
+    font-weight:bold;
+    color:#666;
+    margin-bottom:8px;
+}
+
+#progressBar{
+    width:100%;
+    max-width:300px;
+    height:10px;
+    background:#dcdcdc;
+    border-radius:999px;
+    margin:0 auto 20px auto;
+    overflow:hidden;
+}
+
+#progressFill{
+    width:0%;
+    height:100%;
+    background:#22c55e;
+    transition:width 0.3s ease;
+}
+    
 </style>
 </head>
 
@@ -185,6 +216,12 @@ margin-bottom:10px;
 INTERPRETER TRAINING
 </div>
 
+<div id="progressText">0 / 0</div>
+
+<div id="progressBar">
+    <div id="progressFill"></div>
+</div>
+    
 <div id="question">
 読み込み中...
 </div>
@@ -260,6 +297,7 @@ INTERPRETER TRAINING
 <script>
 
 let words = [];
+let totalWords = 0;
 let answerTimer;
 let timer;
 let timeLeft = 5;
@@ -281,6 +319,7 @@ async function loadJSON() {
         }
 
         words = await response.json();
+        totalWords = words.length;
         words.sort(() => Math.random() - 0.5);
 
         nextQuestion();
@@ -375,12 +414,19 @@ timeLeft = totalTime;
 
 document.getElementById("pauseBtn").textContent =
     "⏸ 一時停止";
-    
 const word = words.pop();
 
-    document.getElementById("question").textContent = word.jp;
+const solved = totalWords - words.length;
 
-   document.getElementById("answer").style.display = "none";
+document.getElementById("progressText").textContent =
+    `${solved} / ${totalWords}`;
+
+document.getElementById("progressFill").style.width =
+    `${(solved / totalWords) * 100}%`;
+    
+document.getElementById("question").textContent = word.jp;
+
+document.getElementById("answer").style.display = "none";
 document.getElementById("showAnswerBtn").style.display = "inline-block";
 
     switch(lang){

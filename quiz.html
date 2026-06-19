@@ -123,8 +123,19 @@ button:active{
 
     
 #pauseBtn{
-    display:none;
-    background:#111;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    padding: 0;
+    margin: 0;
 }
 .title-main{
     font-size:22px;
@@ -249,6 +260,9 @@ INTERPRETER TRAINING
             stroke-dashoffset="0"
         />
     </svg>
+      <button id="pauseBtn" onclick="togglePause()">⏸</button>
+
+</div>
 </div>
     
 <div id="timer">5</div>
@@ -280,9 +294,8 @@ INTERPRETER TRAINING
 </button>
         
 </div>
-<button id="pauseBtn" onclick="togglePause()">
-    ⏸ 一時停止
-</button>
+
+
     
 <button class="next-btn" onclick="nextQuestion()">
 次へ
@@ -567,13 +580,11 @@ function togglePause(){
 
     if(paused){
 
-        document.getElementById("pauseBtn").textContent =
-            "▶ 再開";
+       document.getElementById("pauseBtn").textContent = "▶";
 
     }else{
 
-        document.getElementById("pauseBtn").textContent =
-            "⏸ 一時停止";
+        document.getElementById("pauseBtn").textContent = "⏸";
 
     }
 

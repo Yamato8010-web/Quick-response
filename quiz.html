@@ -85,8 +85,8 @@ button:hover{
 }
     
 #pauseBtn:hover{
-    transform:translate(-50%, -50%);
-    box-shadow:none;
+    transform:translate(-50%, -50%) scale(1.08);
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
 }
 
 
@@ -130,7 +130,17 @@ button:active{
 .countdown-animation {
     animation: popIn 0.4s ease;
 }
-
+@keyframes pausePop{
+    0%{
+        transform:translate(-50%, -50%) scale(1);
+    }
+    50%{
+        transform:translate(-50%, -50%) scale(1.25);
+    }
+    100%{
+        transform:translate(-50%, -50%) scale(1);
+    }
+}
 .selected-rating{
     background:#d1d5db !important;
     border-width:4px !important;
@@ -144,23 +154,25 @@ button:active{
     top:50%;
     transform:translate(-50%, -50%);
 
-    width:36px;
-    height:36px;
+    width:48px;
+    height:48px;
     padding:0;
     margin:0;
 
-    display:none;
-
     background:white;
-    color:black;
+    color:#222;
     border:2px solid #ddd;
     border-radius:50%;
 
-    font-size:16px;
-    line-height:36px;
+    font-size:22px;
+    line-height:48px;
     text-align:center;
 
+    cursor:pointer;
     z-index:10;
+    display:none;
+
+    transition:transform 0.2s ease;
 }
     
 .title-main{
@@ -597,6 +609,11 @@ function togglePause(){
 
     paused = !paused;
 
+    const btn = document.getElementById("pauseBtn");
+    btn.style.animation = "none";
+    void btn.offsetWidth; // アニメーションをリセット
+    btn.style.animation = "pausePop 0.25s ease";
+    
     if(paused){
     document.getElementById("pauseBtn").textContent = "▶";
 }else{

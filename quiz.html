@@ -83,6 +83,11 @@ button:hover{
     transform:translateY(-2px);
     box-shadow:0 6px 15px rgba(66,85,255,0.3);
 }
+    
+#pauseBtn:hover{
+    transform:translate(-50%, -50%);
+    box-shadow:none;
+
 
 button:active{
     transform:translateY(1px);
@@ -130,22 +135,26 @@ button:active{
     top:50%;
     transform:translate(-50%, -50%);
 
-    width:44px;
-    height:44px;
-    padding:0;
-    margin:0;
+    width:36px;
+    height:36px;
+
+    padding:0 !important;
+    margin:0 !important;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
     border-radius:50%;
     background:white;
     color:black;
     border:2px solid #ddd;
 
-    display:none;
+    font-size:16px;
+    font-weight:bold;
+    line-height:1;
 
-    font-size:18px;
-    line-height:44px;
-    text-align:center;
-    cursor:pointer;
+    box-shadow:none;
 }
     
 .title-main{
@@ -192,12 +201,7 @@ button:active{
     color:#666;
     margin-bottom:15px;
 }
-#progressText{
-    font-size:16px;
-    font-weight:bold;
-    color:#666;
-    margin-bottom:8px;
-}
+
 
 #progressBar{
     width:100%;
@@ -591,8 +595,8 @@ function togglePause(){
     document.getElementById("pauseBtn").textContent = "▶";
 }else{
     document.getElementById("pauseBtn").textContent = "⏸";
+    }
 }
-
 
     
 // -----------------------------

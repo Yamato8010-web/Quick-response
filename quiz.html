@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Quick Response</title>
-
+    
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
 <meta name="theme-color" content="#4285f4">
@@ -13,8 +14,8 @@
 <style>
 
 body{
-    font-family: Arial, sans-serif;
-    background:#cccccc;
+    font-family: "Noto Sans JP", sans-serif;
+    background: linear-gradient(135deg, #e9ecff, #f7f7f7);
     text-align:center;
     padding:30px;
 }
@@ -25,7 +26,7 @@ body{
     background:#f7f7f7;
     padding:30px;
     border-radius:15px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 
 
@@ -45,9 +46,10 @@ body{
     
  /*問題*/ 
 #question{
-    font-size:32px;
-    margin:40px 0;
-    font-weight:bold;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
 }
  /*タイマー数字*/ 
 #timer{
@@ -68,7 +70,8 @@ button{
     background:#4255ff;
     color:white;
     border:none;
-    border-radius:14px;
+    border-radius:18px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.12);
     padding:14px 28px;
     margin:10px;
     font-size:18px;
@@ -277,6 +280,22 @@ body.dark .title-sub{
     font-size:20px;
     border-radius:50%;
 }
+
+.fade-in {
+    animation: fadeInUp 0.25s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    
 /* スマホ用 */
 @media (max-width: 768px){
 
@@ -312,6 +331,7 @@ body.dark .title-sub{
     #reviewButtons button{
         font-size: 14px;
         padding: 6px 10px;
+        border-radius:999px;
     }
 }
     
@@ -573,7 +593,10 @@ document.getElementById("progressFill").style.width =
     `${(solved / totalWords) * 100}%`;
     
 document.getElementById("question").textContent = word.jp;
-
+document.getElementById("question").classList.remove("fade-in");
+void document.getElementById("question").offsetWidth;
+document.getElementById("question").classList.add("fade-in");
+    
 document.getElementById("answer").style.display = "none";
 document.getElementById("showAnswerBtn").style.display = "inline-block";
 
@@ -670,10 +693,16 @@ function showAnswer(){
 
     // 答えを表示
     document.getElementById("answer").style.display = "block";
+    document.getElementById("answer").classList.remove("fade-in");
+    void document.getElementById("answer").offsetWidth;
+    document.getElementById("answer").classList.add("fade-in");
     
     //評価ボタンを表示
     document.getElementById("reviewButtons").style.display = "block";
-
+    document.getElementById("reviewButtons").classList.remove("fade-in");
+    void document.getElementById("reviewButtons").offsetWidth;
+    document.getElementById("reviewButtons").classList.add("fade-in");
+    
     // 「答えを表示」ボタンを隠す
     document.getElementById("showAnswerBtn").style.display = "none";
 }

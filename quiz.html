@@ -328,6 +328,7 @@ body.dark .title-sub{
     <button id="backLangBtn" onclick="goBack()">
         言語選択へ戻る
     </button>
+
 </div>
 
 <div class="app-title">
@@ -418,11 +419,15 @@ INTERPRETER TRAINING
 次へ
 </button>
 
+<button onclick="startReviewMode()">
+復習モード
+</button>
 
 </div>
 
 <script>
 
+let reviewMode = false;
 let words = [];
 let totalWords = 0;
 let answerTimer;
@@ -430,7 +435,9 @@ let timer;
 let timeLeft = 5;
 let firstQuestion = true;
 let paused = false;
-
+let reviewWords = [];
+let currentWord = null;
+    
 const totalTime = 5;
 // -----------------------------
 // JSON読み込み
@@ -553,7 +560,8 @@ btn.style.background = "#ef4444";
 btn.style.color = "white";
 
 const word = words.pop();
-
+currentWord = word;
+    
 const solved = totalWords - words.length;
 
 document.getElementById("progressText").textContent =
@@ -687,6 +695,10 @@ function showAnswer(){
     if(result === "hard"){
         document.getElementById("hardBtn").classList.add("selected-rating");
     }
+    
+    if(result === "almost" || result === "hard"){
+        reviewWords.push(currentWord);
+    }
 
     console.log("自己評価:", result);
 
@@ -729,7 +741,25 @@ function toggleDarkMode(){
     btn.textContent =
         document.body.classList.contains("dark") ? "☀️" : "🌙";
 }
-    
+//復習モード//
+function startReviewMode(){
+
+    if(reviewWords.length === 0){
+        alert("復習する問題がありません");
+        return;
+    }
+
+    reviewMode = true;
+
+    words = [...reviewWords];
+    reviewWords = [];
+
+    words.sort(() => Math.random() - 0.5);
+
+    firstQuestion = true;
+
+    nextQuestion();
+}
 </script>
 
 </body>

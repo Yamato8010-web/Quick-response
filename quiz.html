@@ -442,8 +442,13 @@ const totalTime = 5;
 // -----------------------------
 // JSON読み込み
 // -----------------------------
-async function loadJSON() {
+const saved = localStorage.getItem("reviewWords");
 
+if(saved){
+    reviewWords = JSON.parse(saved);
+}
+
+async function loadJSON() {
     try {
 
         const response = await fetch("words.json");
@@ -699,7 +704,10 @@ function showAnswer(){
     if(result === "almost" || result === "hard"){
         reviewWords.push(currentWord);
     }
+    localStorage.setItem("reviewWords", JSON.stringify(reviewWords));
 
+    currentWord = null;
+       
     console.log("自己評価:", result);
 
 }
@@ -744,6 +752,8 @@ function toggleDarkMode(){
 //復習モード//
 function startReviewMode(){
 
+    localStorage.setItem("reviewWords", JSON.stringify(reviewWords));
+    
     if(reviewWords.length === 0){
         alert("復習する問題がありません");
         return;

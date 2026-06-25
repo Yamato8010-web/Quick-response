@@ -42,20 +42,21 @@ body{
         0 12px 24px rgba(0,0,0,0.08);
     margin-bottom:30px;
 }
-
+    
+ /*問題*/ 
 #question{
     font-size:32px;
     margin:40px 0;
     font-weight:bold;
 }
-
+ /*タイマー数字*/ 
 #timer{
     font-size:28px;
     font-weight:bold;
     color:#ff3b30;
     margin:10px 0;
 }
-
+ /*答え表示*/ 
 #answer{
     font-size:28px;
     color:#0066cc;
@@ -76,7 +77,7 @@ button{
     transition:all 0.2s ease;
     text-shadow: 0 1px 2px rgba(0,0,0,0.8);
 }
-
+ /*次へボタン*/ 
 .next-btn{
     background:#ff3b30;
 }
@@ -91,7 +92,6 @@ button:hover{
     box-shadow:0 2px 8px rgba(0,0,0,0.2);
 }
 
-
 button:active{
     transform:translateY(1px);
 }
@@ -99,13 +99,15 @@ button:active{
     transform:translate(-50%, -50%);
 }
 
+    
+ /*円形タイマー*/ 
 .timer-circle{
     position: relative;
     width: 100px;
     height: 100px;
     margin: 20px auto;
 }
-    
+   
 .timer-circle svg{
     position:absolute;
     top:0;
@@ -128,7 +130,7 @@ button:active{
         opacity: 1;
     }
 }
-
+ /*カウントダウンアニメーション*/
 .countdown-animation {
     animation: popIn 0.4s ease;
 }
@@ -143,13 +145,14 @@ button:active{
         transform:translate(-50%, -50%) scale(1);
     }
 }
+ /*評価ボタン*/ 
 .selected-rating{
     background:#d1d5db !important;
     border-width:4px !important;
     transform:scale(1.05);
 }
 
-    
+/*web用停止ボタン*/    
 #pauseBtn{
     position:absolute;
     left:50%;
@@ -167,8 +170,10 @@ button:active{
     border-radius:50%;
 
     font-size:22px;
-    line-height:48px;
-    text-align:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
 
     cursor:pointer;
     z-index:10;
@@ -222,7 +227,7 @@ button:active{
     margin-bottom:15px;
 }
 
-
+ /*進捗バー*/ 
 #progressBar{
     width:100%;
     max-width:300px;
@@ -232,13 +237,14 @@ button:active{
     margin:0 auto 20px auto;
     overflow:hidden;
 }
-
+ /*進捗バー残り*/ 
 #progressFill{
     width:0%;
     height:100%;
     background:#22c55e;
     transition:width 0.3s ease;
 }
+ /*ダークモード時背景*/     
 body.dark{
     background:#121212;
     color:white;
@@ -263,7 +269,7 @@ body.dark .title-sub{
     align-items:center;
     margin-bottom:10px;
 }
-
+ /*ダークモードボタン*/ 
 #darkModeBtn{
     width:40px;
     height:40px;
@@ -279,17 +285,16 @@ body.dark .title-sub{
         padding: 10px 18px;
         margin: 6px;
     }
-
-    #pauseBtn{
+/*スマホ用停止ボタン*/
+ #pauseBtn{
     width:32px;
     height:32px;
 
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
+    font-size:16px;
 
-    padding:0;
-    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
     #darkModeBtn{
@@ -297,13 +302,13 @@ body.dark .title-sub{
         height: 32px;
         font-size: 16px;
     }
-    
+     /*言語選択へ戻るボタン*/ 
     #backLangBtn{
     padding:6px 10px;
     font-size:14px;
     border-radius:10px;
 }
-
+ /*評価ボタン*/ 
     #reviewButtons button{
         font-size: 14px;
         padding: 6px 10px;
@@ -686,7 +691,7 @@ function showAnswer(){
     console.log("自己評価:", result);
 
 }
-
+//タイマー再生／一時停止ボタン
 function togglePause(){
 
     paused = !paused;
@@ -694,14 +699,12 @@ function togglePause(){
     const btn = document.getElementById("pauseBtn");
 
     if(paused){
-        // 停止中 → 再生ボタンを表示
-        btn.textContent = "▶";
-        btn.style.background = "#84cc16"; // 黄緑
+        btn.textContent = "▶︎"; // 再生
+        btn.style.background = "#84cc16";
         btn.style.color = "white";
     }else{
-        // 動作中 → 一時停止ボタンを表示
-        btn.textContent = "⏸";
-        btn.style.background = "#ef4444"; // 赤
+        btn.textContent = "||"; // 一時停止
+        btn.style.background = "#ef4444";
         btn.style.color = "white";
     }
 }
@@ -718,6 +721,7 @@ function goBack(){
 // -----------------------------
 loadJSON();
 
+//ダークモードボタン
 function toggleDarkMode(){
     document.body.classList.toggle("dark");
 

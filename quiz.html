@@ -419,15 +419,12 @@ INTERPRETER TRAINING
 次へ
 </button>
 
-<button onclick="startReviewMode()">
-復習モード
-</button>
 
 </div>
 
 <script>
 
-let reviewMode = false;
+
 let words = [];
 let totalWords = 0;
 let answerTimer;
@@ -749,27 +746,7 @@ function toggleDarkMode(){
     btn.textContent =
         document.body.classList.contains("dark") ? "☀️" : "🌙";
 }
-//復習モード//
-function startReviewMode(){
 
-    localStorage.setItem("reviewWords", JSON.stringify(reviewWords));
-    
-    if(reviewWords.length === 0){
-        alert("復習する問題がありません");
-        return;
-    }
-
-    reviewMode = true;
-
-    words = [...reviewWords];
-    reviewWords = [];
-
-    words.sort(() => Math.random() - 0.5);
-
-    firstQuestion = true;
-
-    nextQuestion();
-}
 </script>
 
 </body>

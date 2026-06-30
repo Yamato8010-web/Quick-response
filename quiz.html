@@ -797,7 +797,25 @@ function toggleDarkMode(){
     btn.textContent =
         document.body.classList.contains("dark") ? "☀️" : "🌙";
 }
+// ============================
+// キーボードショートカット
+// Space：一時停止／再生
+// Enter：次の問題
+// ============================
+document.addEventListener("keydown", function(e){
 
+    if(e.code === "Space"){
+        e.preventDefault();
+        togglePause();
+    }
+
+    if(e.code === "Enter"){
+        e.preventDefault();
+        nextQuestion();
+    }
+
+});
+    
 </script>
 
 </body>

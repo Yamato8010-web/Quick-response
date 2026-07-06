@@ -544,14 +544,23 @@ function nextQuestion(){
 
    if(words.length === 0){
 
+    // タイマー停止
+    clearInterval(timer);
+    clearTimeout(answerTimer);
+
+    // Complete表示
     document.getElementById("question").textContent = "🎉 Complete!";
 
+    // 非表示にする
     document.getElementById("timer").style.display = "none";
     document.getElementById("answer").style.display = "none";
     document.getElementById("showAnswerBtn").style.display = "none";
-    document.querySelector(".next-btn").style.display = "none";
     document.getElementById("reviewButtons").style.display = "none";
+    document.querySelector(".next-btn").style.display = "none";
     document.getElementById("pauseBtn").style.display = "none";
+
+    // 進捗バーは100%
+    document.getElementById("progressFill").style.width = "100%";
 
     return;
 }

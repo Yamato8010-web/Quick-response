@@ -503,11 +503,21 @@ async function loadJSON() {
             throw new Error("words.json が見つかりません");
         }
 
-        words = await response.json();
-        totalWords = words.length;
-        words.sort(() => Math.random() - 0.5);
+       words = await response.json();
 
-        nextQuestion();
+// 選択した問題数を取得
+const questionCount = Number(localStorage.getItem("questionCount")) || 50;
+
+// シャッフル
+words.sort(() => Math.random() - 0.5);
+
+// 選択した問題数だけ使う
+words = words.slice(0, questionCount);
+
+// 合計問題数を更新
+totalWords = words.length;
+
+nextQuestion();
 
     } catch(error) {
 
@@ -520,11 +530,23 @@ async function loadJSON() {
 }
 
 // -----------------------------
-// 次の問題
+// 次の問題　（すべて終わると「complete」）
 // -----------------------------
 function nextQuestion(){
 
-    if(words.length === 0) return;
+   if(words.length === 0){
+
+    document.getElementById("question").textContent = "🎉 Complete!";
+
+    document.getElementById("timer").style.display = "none";
+    document.getElementById("answer").style.display = "none";
+    document.getElementById("showAnswerBtn").style.display = "none";
+    document.querySelector(".next-btn").style.display = "none";
+    document.getElementById("reviewButtons").style.display = "none";
+    document.getElementById("pauseBtn").style.display = "none";
+
+    return;
+}
 
 //スタート前のカウントダウン
  if(firstQuestion){
@@ -697,7 +719,7 @@ function startTimer(){
     }, 30);
 
 }
-
+//カウントダウンリセット
 function updateCountdownText(text){
 
     const question = document.getElementById("question");

@@ -59,6 +59,9 @@ h2{
     font-size:24px;
     font-weight:bold;
     cursor:pointer;
+
+    display:block;
+    margin:25px auto 0;
 }
 
 .start-btn:hover{
@@ -116,6 +119,14 @@ h2{
     font-weight:normal;
 }
     
+.card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    margin:25px 0;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+    
 </style>
 </head>
 
@@ -128,28 +139,8 @@ h2{
     <div class="title-sub">Quick Response</div>
 </div>
 
-<h2>How to Use</h2>
-
-<img
-    src="howto.png"
-    alt="アプリ画面"
-    style="
-        width:100%;
-        max-width:350px;
-        border-radius:12px;
-        box-shadow:0 4px 12px rgba(0,0,0,0.15);
-        margin:20px 0;
-    "
->
+<div class="card">
     
-<div class="instructions">
-① 「スタート」を押すと日本語が表示されます。<br>
-② タイマー以内に選択した言語で答えてください。<br>
-③ 分かったら頭の中で答えます。<br>
-④ すぐ確認したい場合は「答えを表示」を押します。<br>
-⑤ 「次へ」で次の問題へ進みます。
-</div>
-
 <h2>
 問題数を選択<br>
 <small>Choose Practice Size</small>
@@ -179,6 +170,7 @@ Standard<br>
 🔥<br>
 Challenge<br>
 <small>200 Questions</small>
+    
 </button>
 
 <button class="course-btn" onclick="selectCourse(350,this)">
@@ -195,6 +187,32 @@ START
 
 </div>
 
+<div class="card">
+    
+<h2>How to Use</h2>
+
+<img
+    src="howto.png"
+    alt="アプリ画面"
+    style="
+        width:100%;
+        max-width:350px;
+        border-radius:12px;
+        box-shadow:0 4px 12px rgba(0,0,0,0.15);
+        margin:20px 0;
+    "
+>
+    
+<div class="instructions">
+① 「スタート」を押すと日本語が表示されます。<br>
+② タイマー以内に選択した言語で答えてください。<br>
+③ 分かったら頭の中で答えます。<br>
+④ すぐ確認したい場合は「答えを表示」を押します。<br>
+⑤ 「次へ」で次の問題へ進みます。
+</div>
+
+</div>
+    
 <script>
 
 let questionCount = 50;

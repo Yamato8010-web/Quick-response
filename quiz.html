@@ -552,6 +552,7 @@ function nextQuestion(){
     document.getElementById("question").textContent = "🎉 Complete!";
 
     // 非表示にする
+    document.querySelector(".timer-circle").style.display = "none";
     document.getElementById("timer").style.display = "none";
     document.getElementById("answer").style.display = "none";
     document.getElementById("showAnswerBtn").style.display = "none";

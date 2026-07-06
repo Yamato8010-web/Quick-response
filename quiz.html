@@ -345,8 +345,9 @@ body.dark .title-sub{
         height: 32px;
         font-size: 16px;
     }
-     /*言語選択へ戻るボタン*/ 
-    #backLangBtn{
+     /*言語選択、問題数選択へ戻るボタン*/ 
+    #backLangBtn,
+    #backCourseBtn{
     padding:6px 10px;
     font-size:14px;
     border-radius:10px;
@@ -367,11 +368,18 @@ body.dark .title-sub{
 <div class="container">
 
 <div class="top-bar">
+
     <button id="darkModeBtn" onclick="toggleDarkMode()">🌙</button>
 
-    <button id="backLangBtn" onclick="goBack()">
-        言語選択へ戻る
-    </button>
+    <div>
+        <button id="backCourseBtn" onclick="goBackCourse()">
+            問題数選択へ戻る
+        </button>
+
+        <button id="backLangBtn" onclick="goBack()">
+            言語選択へ戻る
+        </button>
+    </div>
 
 </div>
 
@@ -804,6 +812,9 @@ function togglePause(){
         btn.style.background = "#ef4444";
         btn.style.color = "white";
     }
+}
+    function goBackCourse(){
+    window.location.href = "instructions.html";
 }
     
 // -----------------------------

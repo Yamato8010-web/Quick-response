@@ -64,6 +64,7 @@ h2{
 .start-btn:hover{
     transform:translateY(-2px);
 }
+
    
 .title-main{
     font-size:22px;
@@ -79,6 +80,42 @@ h2{
     letter-spacing:1px;
     margin-top:4px;
 }
+
+.course-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+    gap:15px;
+    margin:30px auto;
+}
+
+.course-btn{
+    background:white;
+    border:2px solid #ddd;
+    border-radius:18px;
+    padding:18px 10px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:all .2s ease;
+    line-height:1.6;
+}
+
+.course-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.course-btn.selected{
+    background:#4255ff;
+    color:white;
+    border-color:#4255ff;
+}
+
+.course-btn small{
+    font-size:14px;
+    font-weight:normal;
+}
+    
 </style>
 </head>
 
@@ -113,6 +150,45 @@ h2{
 ⑤ 「次へ」で次の問題へ進みます。
 </div>
 
+<h2>
+問題数を選択<br>
+<small>Choose Practice Size</small>
+</h2>
+
+<div class="course-grid">
+
+<button class="course-btn selected" onclick="selectCourse(50,this)">
+🌱<br>
+Warm-up<br>
+<small>50 Questions</small>
+</button>
+
+<button class="course-btn" onclick="selectCourse(100,this)">
+⚡<br>
+Basic<br>
+<small>100 Questions</small>
+</button>
+
+<button class="course-btn" onclick="selectCourse(150,this)">
+💪<br>
+Standard<br>
+<small>150 Questions</small>
+</button>
+
+<button class="course-btn" onclick="selectCourse(200,this)">
+🔥<br>
+Challenge<br>
+<small>200 Questions</small>
+</button>
+
+<button class="course-btn" onclick="selectCourse(350,this)">
+👑<br>
+Master<br>
+<small>350 Questions</small>
+</button>
+
+</div>
+    
 <button class="start-btn" onclick="startQuiz()">
 START
 </button>
@@ -121,10 +197,28 @@ START
 
 <script>
 
-function startQuiz(){
-    window.location.href = "quiz.html";
+let questionCount = 50;
+
+function selectCourse(count, button){
+
+    questionCount = count;
+
+    document.querySelectorAll(".course-btn").forEach(btn=>{
+        btn.classList.remove("selected");
+    });
+
+    button.classList.add("selected");
+
 }
 
+function startQuiz(){
+
+    localStorage.setItem("questionCount", questionCount);
+
+    window.location.href = "quiz.html";
+
+}
+    
 </script>
 
 </body>

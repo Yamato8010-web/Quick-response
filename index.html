@@ -403,9 +403,20 @@ async function checkLanguages(){
 
         });
 
-    });
+        });
 
 }
+
+
+function selectLanguage(category, lang){
+
+    localStorage.setItem("category", category);
+    localStorage.setItem("language", lang);
+
+    window.location.href = "instructions.html";
+
+}
+
 
 checkLanguages();
     

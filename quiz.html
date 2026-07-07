@@ -505,7 +505,11 @@ if(saved){
 async function loadJSON() {
     try {
 
-        const response = await fetch("words.json");
+        const sheetName = "General";
+
+        const response = await fetch(
+            "https://script.google.com/macros/s/AKfycbz4RC1MjqKRTuW2PHHdCOd4e5l_1QZUVagJyOi2b1tgjVCBHgIB1BwI794njktyrxlx/exec?sheet=" + sheetName
+        );
 
         if(!response.ok){
             throw new Error("words.json が見つかりません");

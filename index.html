@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+<title>Quick Response</title>
     
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
@@ -61,6 +61,7 @@ h1{
     margin-bottom:30px;
 }
 
+/*言語ボタンサイズ*/
 .language-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
@@ -79,6 +80,7 @@ h1{
     transition:all 0.2s ease;
 }
 
+/*言語ボタンの色*/
 .en{
     background:#4255ff;
 }
@@ -153,7 +155,26 @@ h1{
     margin:30px 0;
     box-shadow:0 8px 20px rgba(0,0,0,0.08);
 }
+/*スマホ用言語ボタンサイズ*/
+@media (max-width:768px){
+
+    .language-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .language-btn{
+        font-size:18px;
+        padding:16px;
+    }
     
+    /*準備中ボタン押せない*/
+    .disabled{
+    background:#cfcfcf;
+    color:#666;
+    cursor:not-allowed;
+    pointer-events:none;
+    }
+}
 </style>
 
 </head>
@@ -254,6 +275,60 @@ onclick="selectLanguage('Vocabulary','de')">
 
 <button class="language-btn km"
 onclick="selectLanguage('Vocabulary','km')">
+🇰🇭 ខ្មែរ
+</button>
+
+</div>
+
+</div>
+<div class="card">
+
+<h2>💬 Expression</h2>
+
+<div class="language-grid">
+
+<button class="language-btn en"
+onclick="selectLanguage('Expression','en')">
+🇺🇸 English
+</button>
+
+<button class="language-btn zh"
+onclick="selectLanguage('Expression','zh')">
+🇨🇳 中文
+</button>
+
+<button class="language-btn ko"
+onclick="selectLanguage('Expression','ko')">
+🇰🇷 한국어
+</button>
+
+<button class="language-btn pt"
+onclick="selectLanguage('Expression','pt')">
+🇧🇷 Português
+</button>
+
+<button class="language-btn fr"
+onclick="selectLanguage('Expression','fr')">
+🇫🇷 Français
+</button>
+
+<button class="language-btn mn"
+onclick="selectLanguage('Expression','mn')">
+🇲🇳 Монгол
+</button>
+
+<button class="language-btn vi"
+onclick="selectLanguage('Expression','vi')">
+🇻🇳 Tiếng Việt
+</button>
+
+<button class="language-btn de"
+onclick="selectLanguage('Expression','de')">
+🇩🇪 Deutsch
+</button>
+
+<button class="language-btn km"
+onclick="selectLanguage('Expression','km')">
 🇰🇭 ខ្មែរ
 </button>
 

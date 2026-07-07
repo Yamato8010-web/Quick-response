@@ -155,6 +155,14 @@ h1{
     margin:30px 0;
     box-shadow:0 8px 20px rgba(0,0,0,0.08);
 }
+ /*準備中ボタン押せない*/
+    .disabled{
+    background:#cfcfcf;
+    color:#666;
+    cursor:not-allowed;
+    pointer-events:none;
+    }
+    
 /*スマホ用言語ボタンサイズ*/
 @media (max-width:768px){
 
@@ -167,13 +175,7 @@ h1{
         padding:16px;
     }
     
-    /*準備中ボタン押せない*/
-    .disabled{
-    background:#cfcfcf;
-    color:#666;
-    cursor:not-allowed;
-    pointer-events:none;
-    }
+   
 }
 </style>
 
@@ -339,7 +341,37 @@ onclick="selectLanguage('Expression','km')">
 </div>
 
 <script>
+async function checkLanguages(){
 
+    const category = "Vocabulary";
+
+    const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbz4RC1MjqKRTuW2PHHdCOd4e5l_1QZUVagJyOi2b1tgjVCBHgIB1BwI794njktyrxlx/exec?sheet=" + category
+    );
+
+    const words = await response.json();
+
+    const languages = [
+    "en",
+    "zh",
+    "ko",
+    "pt",
+    "fr",
+    "mn",
+    "vi",
+    "de",
+    "km"
+];
+    languages.forEach(lang=>{
+
+    const available = words.some(word => word[lang]);
+
+    console.log(lang, available);
+
+});
+
+}
+    
 function selectLanguage(category, lang){
 
     localStorage.setItem("category", category);
@@ -349,6 +381,8 @@ function selectLanguage(category, lang){
 
 }
 
+checkLanguages();
+    
 </script>
 
 </body>

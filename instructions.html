@@ -133,7 +133,11 @@ h2{
 <body>
 
 <div class="container">
-
+    
+<button onclick="goBack()">
+    🌏 言語選択へ戻る
+</button>
+    
 <div class="app-title">
     <div class="title-main">天理教用語</div>
     <div class="title-sub">Quick Response</div>
@@ -234,6 +238,12 @@ function startQuiz(){
     localStorage.setItem("questionCount", questionCount);
 
     window.location.href = "quiz.html";
+
+}
+    
+function goBack(){
+
+    window.location.href = "index.html";
 
 }
     

@@ -177,6 +177,15 @@ h1{
     
    
 }
+    /* 読み込み前は言語ボタンを隠す */
+.language-btn{
+    display:none;
+}
+
+/* 確認後に表示 */
+.language-btn.show{
+    display:block;
+}
 </style>
 
 </head>
@@ -387,19 +396,22 @@ async function checkLanguages(){
 
 
             const available =
-            words.some(word=>word[lang]);
+words.some(word=>word[lang]);
 
 
-            if(!available){
+button.classList.add("show");
 
-                button.classList.add("disabled");
 
-                button.innerHTML =
-                button.innerHTML + "<br>準備中";
+if(!available){
 
-                button.onclick=null;
+    button.classList.add("disabled");
 
-            }
+    button.innerHTML =
+    button.innerHTML + "<br>準備中";
+
+    button.onclick=null;
+
+}
 
         });
 

@@ -5,10 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="app-title">
-    <div class="title-main">天理教用語</div>
-    <div class="title-sub">Quick Response</div>
-</div>
+
     
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
@@ -106,6 +103,18 @@ h1{
     background:#2563EB;
 }
 
+.vi{
+    background:#10B981;
+}
+
+.de{
+    background:#374151;
+}
+
+.km{
+    background:#D97706;
+}
+    
 .language-btn:hover{
     transform:translateY(-3px);
     box-shadow:0 8px 20px rgba(66,85,255,0.3);
@@ -152,7 +161,12 @@ h1{
 <body>
 
 <div class="container">
-
+    
+<div class="app-title">
+    <div class="title-main">天理教用語</div>
+    <div class="title-sub">Quick Response</div>
+</div>
+    
 <div class="logo">
 INTERPRETER TRAINING
 </div>
@@ -192,7 +206,61 @@ onclick="selectLanguage('General','mn')">
 
 </div>
 
+<div class="card">
 
+<h2>📚 Vocabulary</h2>
+
+<div class="language-grid">
+
+<button class="language-btn en"
+onclick="selectLanguage('Vocabulary','en')">
+🇺🇸 English
+</button>
+
+<button class="language-btn zh"
+onclick="selectLanguage('Vocabulary','zh')">
+🇨🇳 中文
+</button>
+
+<button class="language-btn ko"
+onclick="selectLanguage('Vocabulary','ko')">
+🇰🇷 한국어
+</button>
+
+<button class="language-btn pt"
+onclick="selectLanguage('Vocabulary','pt')">
+🇧🇷 Português
+</button>
+
+<button class="language-btn fr"
+onclick="selectLanguage('Vocabulary','fr')">
+🇫🇷 Français
+</button>
+
+<button class="language-btn mn"
+onclick="selectLanguage('Vocabulary','mn')">
+🇲🇳 Монгол
+</button>
+
+<button class="language-btn vi"
+onclick="selectLanguage('Vocabulary','vi')">
+🇻🇳 Tiếng Việt
+</button>
+
+<button class="language-btn de"
+onclick="selectLanguage('Vocabulary','de')">
+🇩🇪 Deutsch
+</button>
+
+<button class="language-btn km"
+onclick="selectLanguage('Vocabulary','km')">
+🇰🇭 ខ្មែរ
+</button>
+
+</div>
+
+</div>
+    
 </div>
 
 <script>

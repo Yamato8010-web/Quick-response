@@ -364,40 +364,46 @@ async function checkLanguages(){
     ];
 
 
-    for(const category of categories){
-
-        const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbz4RC1MjqKRTuW2PHHdCOd4e5l_1QZUVagJyOi2b1tgjVCBHgIB1BwI794njktyrxlx/exec?sheet=" + category
-        );
+   const response = await fetch(
+"https://script.google.com/macros/s/AKfycbz4RC1MjqKRTuW2PHHdCOd4e5l_1QZUVagJyOi2b1tgjVCBHgIB1BwI794njktyrxlx/exec"
+);
 
 
-        const words = await response.json();
+const allWords = await response.json();
 
 
-        languages.forEach(lang=>{
+categories.forEach(category=>{
+
+    const words = allWords[category];
 
 
-            const button =
-            document.getElementById(category+"-"+lang);
+    languages.forEach(lang=>{
+
+        const button =
+        document.getElementById(category+"-"+lang);
 
 
-            if(!button) return;
+        if(!button) return;
 
 
-            const available =
-            words.some(word=>word[lang]);
+        const available =
+        words.some(word=>word[lang]);
 
 
-            if(!available){
+        if(!available){
 
-    button.classList.add("disabled");
+            button.classList.add("disabled");
 
-    button.innerHTML =
-    button.innerHTML + "<br>準備中";
+            button.innerHTML =
+            button.innerHTML + "<br>準備中";
 
-    button.onclick=null;
+            button.onclick=null;
 
-}
+        }
+
+    });
+
+});
 
 
         });

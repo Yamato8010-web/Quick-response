@@ -69,6 +69,7 @@ h1{
 }
 
 .language-btn{
+    display:none;/* 読み込み前は言語ボタンを隠す */
     color:white;
     border:none;
     border-radius:18px;
@@ -78,7 +79,12 @@ h1{
     cursor:pointer;
     transition:all 0.2s ease;
 }
-
+   
+/* 確認後に表示 */
+.language-btn.show{
+    display:block;
+}
+    
 /*言語ボタンの色*/
 .en{
     background:#4255ff;
@@ -181,15 +187,7 @@ h1{
     
    
 }
-    /* 読み込み前は言語ボタンを隠す */
-.language-btn{
-    display:none;
-}
-
-/* 確認後に表示 */
-.language-btn.show{
-    display:block;
-}
+ 
 </style>
 
 </head>

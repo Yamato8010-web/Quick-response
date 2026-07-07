@@ -157,6 +157,25 @@ h2{
     0 6px 15px rgba(66,85,255,0.3);
 
 }
+.top-bar{
+    position:relative;
+    height:60px;
+    margin-bottom:20px;
+}
+
+.top-bar .back-btn{
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.top-bar .app-title{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
 </style>
 </head>
 
@@ -165,7 +184,7 @@ h2{
 <div class="container">
     
 <button class="back-btn" onclick="goBack()">
-    🌏 コース・言語選択へ戻る
+コース・言語選択へ戻る
 </button>
     
 <div class="app-title">
